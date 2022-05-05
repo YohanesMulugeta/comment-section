@@ -34,3 +34,15 @@
 .reply {
   cursor: pointer;
 }
+
+/* /////////////////////////////////////////            avatar */
+/* //////////////////////////////////////// */
+
+.avatar-container {
+  gap: 1rem;
+}
+
+.user-name {
+  font-weight: 600;
+  color: hsl(212, 24%, 26%);
+}
