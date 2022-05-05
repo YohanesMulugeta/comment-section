@@ -76,3 +76,13 @@
   width: 80%;
   background-color: hsl(0, 0%, 100%);
 }
+
+.btn-send {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+
+  border-radius: 0.5rem;
+  background-color: hsl(238, 40%, 52%);
+  color: hsl(0, 0%, 100%);
+}
