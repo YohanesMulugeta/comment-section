@@ -37,13 +37,19 @@
   cursor: pointer;
 }
 
-.reply-container {
+.reply-container,
+.edit-container {
   color: hsl(238, 40%, 52%);
+}
+
+.edit-container {
+  width: 7rem;
 }
 
 .delete-container {
   color: hsl(358, 79%, 66%);
 }
+
 .reply,
 .delete {
   cursor: pointer;
