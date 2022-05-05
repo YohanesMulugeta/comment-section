@@ -22,23 +22,30 @@
   justify-self: start;
 }
 
-/* ////////////////////////////////////////////         reply-container */
+/* ////////////////////////////////////////////         reply,delete, edit-container */
 /* /////////////////////////////////////////// */
 
-.reply-container {
+.reply-container,
+.delete-container,
+.edit-container {
   width: 8.4rem;
   font-weight: 600;
   padding: 0.4rem 0.8rem;
 
-  color: hsl(238, 40%, 52%);
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-
-  justify-self: end;
 }
 
-.reply {
+.reply-container {
+  color: hsl(238, 40%, 52%);
+}
+
+.delete-container {
+  color: hsl(358, 79%, 66%);
+}
+.reply,
+.delete {
   cursor: pointer;
 }
 
