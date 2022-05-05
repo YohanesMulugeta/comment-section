@@ -1,4 +1,4 @@
-@media (min-width: 33em) {
+@media (min-width: 37em) {
   .grid--2-cols {
     grid-template-columns: 1fr 7fr 1fr;
     column-gap: 2rem;

@@ -44,6 +44,7 @@
 
 .edit-container {
   width: 7rem;
+  cursor: pointer;
 }
 
 .delete-container {
@@ -53,6 +54,12 @@
 .reply,
 .delete {
   cursor: pointer;
+}
+
+.delete-edit-container {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 /* /////////////////////////////////////////            avatar */
