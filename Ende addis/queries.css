@@ -1,3 +1,5 @@
+@media (min-width: 30em) {
+}
 @media (min-width: 37em) {
   .grid--2-cols {
     grid-template-columns: 1fr 7fr 1fr;
