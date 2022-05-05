@@ -1,0 +1,33 @@
+@media (min-width: 33em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr 7fr 1fr;
+    column-gap: 2rem;
+
+    padding-right: 2.4rem;
+    /* padding: ; */
+  }
+
+  .score-container {
+    flex-direction: column;
+    height: 12rem;
+    width: 4.6rem;
+    justify-self: center;
+
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .reply-container {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .comment {
+    grid-row: 2 / span 2;
+  }
+
+  .avatar-container {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
