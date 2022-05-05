@@ -18,6 +18,8 @@
   overflow: hidden;
   justify-content: space-around;
   align-items: center;
+
+  justify-self: start;
 }
 
 /* ////////////////////////////////////////////         reply-container */
@@ -32,6 +34,8 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+
+  justify-self: end;
 }
 
 .reply {
@@ -42,7 +46,10 @@
 /* //////////////////////////////////////// */
 
 .avatar-container {
+  align-items: center;
+
   gap: 1rem;
+  grid-column: span 2;
 }
 
 .user-name {
@@ -57,17 +64,18 @@
   gap: 1.6rem;
 }
 .comment-card {
-  flex-direction: column;
-  gap: 1.5rem;
   border-radius: 1rem;
   padding: 1.6rem 1.2rem;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.comment-footer {
-  justify-content: space-between;
+.comment {
+  grid-column: span 2;
 }
+/* .comment-footer {
+  justify-content: space-between;
+} */
 
 /* ///////////////////////////////////////////////              COMMENT-FIELD    */
 /* ////////////////////////////////////////////// */

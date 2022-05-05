@@ -26,6 +26,7 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+  padding: 3.2rem 0;
   gap: 2.4rem;
 }
 
@@ -34,6 +35,17 @@ body {
   border: none;
   cursor: pointer;
   background: none;
+}
+
+/* //////////////////////////////////////////////////         GRID */
+
+.grid {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
 }
 
 /* //////////////////////////////////////////////////         FLEX */
