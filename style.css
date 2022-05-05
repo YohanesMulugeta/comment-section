@@ -65,3 +65,14 @@
 .comment-footer {
   justify-content: space-between;
 }
+
+/* ///////////////////////////////////////////////              COMMENT-FIELD    */
+/* ////////////////////////////////////////////// */
+
+.comment-field {
+  border-radius: 1rem;
+  padding: 0.8rem 1.2rem;
+  height: 10rem;
+  width: 80%;
+  background-color: hsl(0, 0%, 100%);
+}
