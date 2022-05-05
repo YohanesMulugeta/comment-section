@@ -1,0 +1,19 @@
+.score-container,
+.btn-score {
+  background-color: hsl(223, 19%, 93%);
+  color: hsl(212, 24%, 26%);
+  font-weight: 600;
+}
+
+.btn-score {
+  height: 3.2rem;
+  padding: 0 0.4rem;
+  /* width: 3.2rem; */
+}
+
+.score-container {
+  width: 8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  justify-content: space-around;
+}
