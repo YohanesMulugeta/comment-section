@@ -17,3 +17,20 @@
   overflow: hidden;
   justify-content: space-around;
 }
+
+/* ////////////////////////////////////////////         reply-container */
+/* /////////////////////////////////////////// */
+
+.reply-container {
+  width: 8.4rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+
+  color: hsl(238, 40%, 52%);
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.reply {
+  cursor: pointer;
+}
