@@ -86,3 +86,14 @@
   background-color: hsl(238, 40%, 52%);
   color: hsl(0, 0%, 100%);
 }
+
+.comment-send-footer {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar-comment {
+  width: 3.2rem;
+}
