@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 55%;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
 
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.08rem;
   position: relative;
 
   /* word-spacing: 0rem; */
@@ -26,7 +26,7 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
-  padding: 3.2rem 0;
+  padding: 4.6rem 0;
   gap: 2.4rem;
 }
 
