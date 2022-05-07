@@ -3,6 +3,10 @@ import { View } from "./view.js";
 class CommentField extends View {
   _parentElement = document.querySelector(".comment-section ");
   _btnSend;
+
+  // ////////////////////////////////////////          MARKUP GENERATOR
+  //////////////////////////////////////////
+
   _generateMarkup() {
     return `
     <section class="section-comment-send grid grid--2-cols">
@@ -27,19 +31,29 @@ class CommentField extends View {
     `;
   }
 
+  //////////////////////////////////////////              INITIALIZER
+  /////////////////////////////////////////
+
   init(data, sendHandler) {
     this.render(data);
     this.events(sendHandler);
+
+    this._textarea = document.querySelector(".comment-field");
   }
 
+  ///////////////////////////////////////       SEND BUTTON EVENT LISTNING AND HANDLING
+  //////////////////////////////////////
+
   events(sendHandler) {
+    // this is because we cannot select what doesnt exist..
     this._btnSend = document.querySelector(".btn-send");
-    const textarea = document.querySelector(".comment-field");
 
+    // EVENT LSTNER FOR send-btn
     this._btnSend.addEventListener("click", () => {
-      sendHandler(textarea.value);
+      if (!this._textarea.value) return;
+      sendHandler(this._textarea.value);
 
-      textarea.value = null;
+      this._textarea.value = null;
     });
   }
 }
