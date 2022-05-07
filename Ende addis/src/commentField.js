@@ -1,4 +1,4 @@
-import View from "./view";
+import { View } from "./view.js";
 
 class CommentField extends View {
   _parentElement = document.querySelector(".comment-section ");
@@ -19,11 +19,15 @@ class CommentField extends View {
 
         <img
             class="avatar-typing"
-            src="/images/avatars/image-amyrobson.png"
-            alt="photo of amyrobson"
+            src="${this._data.image.png}"
+            alt="photo of ${this._data.username}"
         />
         <button class="btn btn-send">Send</button>
     </section>
     `;
   }
 }
+
+const field = new CommentField();
+
+export default field;

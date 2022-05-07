@@ -1,5 +1,7 @@
 // import * as model from "./src/model.js";
 import comment from "./src/commentView.js";
+import commentField from "./src/commentField";
+
 // import { async } from "regenerator-runtime";
 // import commentView from "./src/commentView.js";
 fetch("../data.json")
