@@ -1,6 +1,3 @@
-import { async } from "regenerator-runtime";
-import { fetcher } from "./helper.js";
-
 // console.log("i am working");
 export const state = {
   currentUser: {

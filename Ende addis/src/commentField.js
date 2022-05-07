@@ -2,7 +2,7 @@ import { View } from "./view.js";
 
 class CommentField extends View {
   _parentElement = document.querySelector(".comment-section ");
-
+  _btnSend;
   _generateMarkup() {
     return `
     <section class="section-comment-send grid grid--2-cols">
@@ -25,6 +25,14 @@ class CommentField extends View {
         <button class="btn btn-send">Send</button>
     </section>
     `;
+  }
+
+  events() {
+    this._btnSend = document.querySelector(".btn-send");
+
+    this._btnSend.addEventListener("click", (e) => {
+      console.log(document.querySelector(".comment-field").value);
+    });
   }
 }
 
