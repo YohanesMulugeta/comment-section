@@ -67,3 +67,9 @@
     margin-left: 3.2rem;
   }
 }
+
+@media (max-width: 55em) {
+  .container {
+    max-width: 85%;
+  }
+}

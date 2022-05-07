@@ -211,7 +211,7 @@
   color: hsl(0, 0%, 100%);
 
   /* cursor: pointer; */
-  /* justify-self: end; */
+  justify-self: end;
 }
 
 /* .avatar-comment {
