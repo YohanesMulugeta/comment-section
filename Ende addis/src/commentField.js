@@ -28,6 +28,4 @@ class CommentField extends View {
   }
 }
 
-const field = new CommentField();
-
-export default field;
+export const field = new CommentField();

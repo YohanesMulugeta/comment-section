@@ -1,12 +1,7 @@
-// import * as model from "./src/model.js";
-import comment from "./src/commentView.js";
-import commentField from "./src/commentField";
+import * as model from "./src/model.js";
+import post from "./src/commentView.js";
+import { field } from "./src/commentField.js";
 
-// import { async } from "regenerator-runtime";
-// import commentView from "./src/commentView.js";
-fetch("../data.json")
-  .then((res) => res.json())
-  .then((data) => {
-    comment.render(data.comments[0]);
-    comment.render(data.comments[1]);
-  });
+const commentRenderer = function (comment) {
+  post.render(comment);
+};

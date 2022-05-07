@@ -1,4 +1,4 @@
-4129
+4131
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\abortcontroller-polyfill132963515217616918 1
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_class_private_field_update.js132963515266909013 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\csso\lib\replace\atrule132963515287318419 1
@@ -8,10 +8,10 @@
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@mischnic132963515179347644 1
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo132963515191854615 1
 126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map132963515227056368 1
-112C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\style.css132963985579230473 0
+112C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\style.css132964018443829431 0
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\svg-fonts.js132963515339073276 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\has-flag\readme.md132963515191675007 0
-107C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist132963987866077927 1
+107C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist132964023863760067 1
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default132963515191864498 1
 120C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\package-lock.json132963516328632031 0
 112C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\data.json132842392870000000 0
@@ -70,7 +70,7 @@
 114C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\general.css132963079319406078 0
 113C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\index.html132963323673272083 0
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nullthrows\README.md132963515195802047 0
-172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo132963515285281831 1
+172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo132963515300818402 1
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\webusb.js132963515340549331 0
 124C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\boolbase132963515189989523 1
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\node_modules\source-map\lib\url-browser.js132963515230881020 0
@@ -93,11 +93,11 @@
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\picocolors\picocolors.d.ts132963515195821988 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\whatwg-url\lib\URL.js132963515195782095 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_class_private_method_get.js132963515302619875 0
-111C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\index.js132963539275871820 0
+111C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\index.js132964016693980155 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\package.json132963515295701270 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\IM.js132963515327267868 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-babel\lib\jsx.js132963515216727969 0
-115C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\package.json132963516558231439 0
+115C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\package.json132964023575477905 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\type-fest\source\iterable-element.d.ts132963515230721281 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\LICENSE132963515187994870 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\KW.js132963515329428362 0
@@ -122,7 +122,7 @@
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_object_spread.js132963515296918842 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\posthtml-parser\readme.md132963515197139088 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\domutils\lib\feeds.js132963515188992195 0
-106C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\src132963986764460423 1
+106C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\src132964012342503804 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\htmlparser2\lib\index.d.ts132963515218362669 0
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\js-tokens132963515194226257 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test132963515298434787 1
@@ -152,21 +152,18 @@
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\cleanupEnableBackground.js132963515206950103 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\src\loaders\.babelrc132963515188324072 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeAttributesBySelector.js132963515291741377 0
-181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main132963515296968706 1
+181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main132963515301592554 1
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\parse-json\readme.md132963515191445629 0
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src132963515282967106 1
 117C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\style-guide.md132962277211908498 0
-139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\color-name\package.json132963515187186387 0
-142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\compressor-raw\src132963515190069300 1
-127C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig132963515282947014 1
-159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\console-basic.js132963515302749445 0
-142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\LICENSE132963515188015468 0
-121C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\src\comentField.js132963992872186127 0
-147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lz4\lib\lz4.h132963515303178296 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\dist\package.json132963515297626944 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lz4\lib132963515304245442 1
-154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-releases\data\processed\envs.json132963515190039462 0
-151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\legacy-exports.js132963515207259256 0
+134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\tslib\package.json132963515197109188 0
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeAttrs.js132963515291980738 0
+156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\lib\_empty.js132963515189061995 0
+125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\btn-send.html132962378201552548 0
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\lexer\index.js132963515298145565 0
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\util.js132963515293435800 0
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@types\parse-json\LICENSE132963515187176302 0
+122C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\src\commentField.js132964015449515820 0
 121C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\clone132963515195841941 1
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\test\input\sourcemap132963515302081350 1
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\workers\lib\Trace.js132963515286646373 0
@@ -192,10 +189,6 @@
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\json5\lib\parse.d.ts132963515231767501 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\RE.js132963515336344543 0
 114C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\src\view.js132963987795587938 0
-134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\tslib\package.json132963515197109188 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeAttrs.js132963515291980738 0
-156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\lib\_empty.js132963515189061995 0
-125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\btn-send.html132962378201552548 0
 175C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\domfocusin-domfocusout-events.js132963515319501852 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\project-overflow.html132963126858046819 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\node_modules\source-map\lib\wasm.js132963515235575372 0
@@ -211,7 +204,7 @@
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\package.json132963515304125766 0
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\channel-messaging.js132963515301891741 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeOffCanvasPaths.js132963515296381116 0
-217C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm132963515299302462 1
+217C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm132963515300598988 1
 124C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\overlay.html132962504997646613 0
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\src\lmdb-js.cpp132963515302639780 0
 132C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\src\txn.cpp132963515302759444 0
@@ -225,7 +218,7 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\AT.js132963515287428142 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\cacheLoader.js132963515198016723 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeViewBox.js132963515297976009 0
-134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\send-comment-card.html132962626220145403 0
+134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\send-comment-card.html132964017480804304 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-addon-api\napi.h132963515208098579 0
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\requests\ParcelBuildRequest.js132963515302011432 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\convertTransform.js132963515245051791 0
@@ -235,7 +228,7 @@
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\PATRONS.md132963515298075828 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\entities\lib\index.d.ts132963515268683866 0
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\darwin-arm64\node.abi83.glibc.node132963515358989020 0
-142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo\lib132963515188294077 1
+142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo\lib132963515188842622 1
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map\lib132963515212193852 1
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\snippets\textarea.html132962375091154113 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\worker\js-loader.js132963515247960129 0
@@ -293,6 +286,9 @@
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-color-function.js132963515303766719 0
 126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\color-name132963515191116515 1
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\node_modules\source-map\lib\binary-search.js132963515204030251 0
+139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\color-name\package.json132963515187186387 0
+142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\compressor-raw\src132963515190807436 1
+127C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig132963515282947014 1
 131C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\is-json\LICENSE132963515191405723 0
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\mergePaths.js132963515283226270 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_iterable_to_array_limit_loose.js132963515295812946 0
@@ -418,7 +414,7 @@
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-gyp-build132963515196859817 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\src132963515208791957 1
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\buffer-from\package.json132963515190228869 0
-130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3a01df49.css.map132963985065705298 0
+130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3a01df49.css.map132964023863696859 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\SK.js132963515338335266 0
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\punycode\punycode.es6.js132963515190617851 0
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nth-check132963515197976832 1
@@ -605,7 +601,7 @@
 168C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js132963515302889081 0
 126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\types132963515291751353 1
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\custom-targets132963515307754706 1
-154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\helper-validator-identifier\lib132963515191455599 1
+154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\helper-validator-identifier\lib132963515194555380 1
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\atrule\font-face.js132963515294247093 0
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dict\dict.txt132963515498403332 0
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\timsort\src\timsort.js132963515198295988 0
@@ -626,7 +622,7 @@
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-postcss\lib\loadPlugins.js132963515196620485 0
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\scalar.js132963515283246219 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\workers\lib\Worker.js132963515290358596 0
-166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-source-not-file132963515299693193 1
+166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-source-not-file132963515309372091 1
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\pseudo-selectors\filters.d.ts132963515282897162 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nan\nan_define_own_property_helper.h132963515207329073 0
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events132963515211367595 1
@@ -716,6 +712,13 @@
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\requests\PackageRequest.js132963515301582544 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\PackagerRunner.js132963515301632443 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\plugins132963515300269879 1
+159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\console-basic.js132963515302749445 0
+142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\LICENSE132963515188015468 0
+147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lz4\lib\lz4.h132963515303178296 0
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\dist\package.json132963515297626944 0
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lz4\lib132963515304245442 1
+154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-releases\data\processed\envs.json132963515190039462 0
+151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\legacy-exports.js132963515207259256 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\requests\TargetRequest.js132963515304185613 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-what\lib\es\parse.d.ts.map132963515218312791 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\term-size\license132963515190927008 0
@@ -730,9 +733,6 @@
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\Schema-e94716c8.js132963515285062478 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\darwin-arm64132963515458756028 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\types.js132963515292130345 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\lexer\index.js132963515298145565 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\yaml\browser\dist\util.js132963515293435800 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@types\parse-json\LICENSE132963515187176302 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\xxhash-wasm\cjs\xxhash-wasm.js132963515188094611 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nan\doc\string_bytes.md132963515292589107 0
 131C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\globals\license132963515187226181 0
@@ -890,7 +890,7 @@
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\utility-types\package.json132963515196760082 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\utility-types\README.md132963515211347651 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\utility-types\SECURITY.md132963515217577015 0
-144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-json\src132963515190059334 1
+144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-json\src132963515190747488 1
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\dist132963515299591686 1
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\addeventlistener.js132963515197817266 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\utility-types\dist\aliases-and-guards.d.ts132963515224475191 0
@@ -1007,7 +1007,7 @@
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\type-fest\source\merge-exclusive.d.ts132963515234985888 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-addon-api\tools\README.md132963515241348472 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\mpeg4.js132963515331892549 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\src132963515190069300 1
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\src132963515190767448 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\UA.js132963515339881215 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-postcss\src\loadConfig.js132963515195732230 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\type-fest\source\merge.d.ts132963515239062459 0
@@ -1063,7 +1063,7 @@
 131C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\tr46\LICENSE.md132963515191395762 0
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\htmlnano\lib\modules\removeRedundantAttributes.js132963515269156604 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\dist\lib132963515338833946 1
-172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage132963515292190178 1
+172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage132963515292549211 1
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\type-fest\source\union-to-intersection.d.ts132963515287658062 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\hash\browser.js132963515190388446 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\node_modules\source-map\lib132963515234306275 1
@@ -1081,6 +1081,7 @@
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-addon-api\tools\check-napi.js132963515210904892 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-letter-spacing.js132963515307615071 0
 171C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\NodePackageManager.test.js132963515262424529 0
+120C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.js.map132964023587193351 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\node-addon-api\node_api.gyp132963515188433683 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nan\nan_object_wrap.h132963515228492485 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\node\CDC.js132963515208098579 0
@@ -1170,7 +1171,7 @@
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map132963515232266127 0
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\entities\lib\decode.js132963515196670329 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\acorn\dist\bin.js132963515197119129 0
-171C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source132963515299491955 1
+171C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source132963515302051327 1
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map\CHANGELOG.md132963515222637318 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins\removeRasterImages.js132963515296669542 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\node_modules\source-map132963515196720195 1
@@ -1243,9 +1244,9 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\workers\src\cpuCount.js132963515208841819 0
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\electron-to-chromium\chromium-versions.js132963515188603228 0
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\lib\size.js132963515296659406 0
-138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\src132963515190079277 1
+138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\src132963515190797360 1
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\dommatrix.js132963515319521797 0
-177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias132963515299442084 1
+177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias132963515302001461 1
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\json-parse-even-better-errors\LICENSE.md132963515191445629 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\terser\lib\sourcemap.js132963515296812624 0
 177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js132963515282996881 0
@@ -1282,7 +1283,7 @@
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_to_property_key.js132963515304026049 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\chalk\readme.md132963515194814717 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\parent-module\license132963515190298749 0
-155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\src\loaders132963515194685042 1
+155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\src\loaders132963515198106519 1
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\term-size\package.json132963515197448242 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\linux-x64\node.abi72.musl.node132963515336155058 0
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\atob-btoa.js132963515288119064 0
@@ -1306,7 +1307,7 @@
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\msgpackr\rollup.config.js132963515208861848 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\package.json132963515300808437 0
 128C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\svgo\plugins132963515298594352 1
-198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a132963515292579136 1
+198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a132963515292619030 1
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\dist\utils.js.flow132963515194216287 0
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\punycode\punycode.js132963515191714941 0
 125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dist132963515304125766 1
@@ -1419,7 +1420,7 @@
 132C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\stable\README.md132963515190278770 0
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\stable\stable.min.js132963515194535449 0
 186C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob\src132963515300249927 1
-134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\src132963515190079277 1
+134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\src132963515190787380 1
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map-support\browser-source-map-support.js132963515188413732 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map-support\LICENSE.md132963515196700246 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map-support\package.json132963515195812061 0
@@ -1458,7 +1459,7 @@
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map\lib\source-map-generator.js132963515208752058 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\webgl2.js132963515340459571 0
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\abortcontroller-polyfill\src\ponyfill.js132963515206006130 0
-147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\test\input\config132963515299831062 1
+147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\test\input\config132963515302091209 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\DK.js132963515319003534 0
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-babel\lib\babel7.js132963515189281416 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\source-map\lib\source-node.js132963515211317731 0
@@ -1520,7 +1521,7 @@
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\fs\lib132963515231887128 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\react-refresh\package.json132963515201414075 0
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\react-refresh\README.md132963515203920441 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default\src132963515190069300 1
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default\src132963515190787380 1
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\react-refresh\runtime.js132963515197228828 0
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\nan\nan_converters.h132963515203950341 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-zoom.js132963515318061762 0
@@ -1580,7 +1581,7 @@
 173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c132963515301430407 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\BZ.js132963515301082236 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\posthtml\node_modules\posthtml-parser\license132963515188044735 0
-187C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false132963515294506361 1
+187C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false132963515301821949 1
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\compressor-raw\src\RawCompressor.js132963515191026806 0
 176C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\posthtml\node_modules\posthtml-parser\dist\chunk.2UQLUWPH.js132963515189391118 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\keyboardevent-code.js132963515329003854 0
@@ -1834,7 +1835,7 @@
 129C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\level.js132963515303866466 0
 128C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\LICENSE132963515238054934 0
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\linux-x64\node.abi102.musl.node132963515325258430 0
-166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers132963515191315971 1
+166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers132963515197238802 1
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@lezer\lr\package.json132963515195812061 0
 127C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\mod.ts132963515498363441 0
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds132963515317832394 1
@@ -1861,7 +1862,7 @@
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\mediarecorder.js132963515331053039 0
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\win32-x64\node.abi88.node132963515458726537 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\lexer\structure.js132963515302909046 0
-129C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3d214d75.js.map132963987866057978 0
+129C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3d214d75.js.map132964023856642853 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\linux-x64\electron.abi99.glibc.node132963515313941205 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-what\lib\commonjs\stringify.d.ts132963515244720726 0
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\prebuilds\linux-x64\electron.abi99.musl.node132963515317822434 0
@@ -1944,7 +1945,7 @@
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb132963515499228111 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\QA.js132963515336314611 0
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\.npmignore132963515191744817 0
-144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\resolver-default\src132963515190069300 1
+144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\resolver-default\src132963515190757468 1
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c132963515285951874 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\ttf.js132963515339811300 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT132963515197358478 0
@@ -2262,7 +2263,7 @@
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\workers\src\threads132963515285566603 1
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\domhandler\lib132963515198236136 1
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\domhandler\package.json132963515192063967 0
-161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo132963515197278723 1
+161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo132963515292190178 1
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\domhandler\lib\index.d.ts132963515197707542 0
 181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\index.js132963515285281831 0
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\domhandler\lib\node.d.ts132963515201394125 0
@@ -2321,7 +2322,7 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\AW.js132963515293744968 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\dom-serializer\lib\index.js132963515195871854 0
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_interop_require_default.js132963515303168323 0
-187C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob132963515299880920 1
+187C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob132963515301122132 1
 172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js132963515231877166 0
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\dom-serializer\lib\esm\foreignNames.d.ts132963515211287828 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\TK.js132963515339641756 0
@@ -2451,7 +2452,7 @@
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\flow-root.js132963515320503453 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\browserslist\update-db.js132963515197248785 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\pseudo\not.js132963515301330684 0
-154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\browser132963515286270906 1
+154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\browser132963515288649649 1
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\pseudo\nth-child.js132963515301370575 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\BR.js132963515300180118 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\node\Function.js132963515294396648 0
@@ -2501,7 +2502,7 @@
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\general.js132963515196780030 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\node\WhiteSpace.js132963515303617123 0
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\lib\SVGPackager.js132963515189331286 0
-198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b132963515293425829 1
+198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b132963515293495658 1
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\function\expression.js132963515293715047 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\package.json132963515217829263 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-tree\lib\syntax\function\var.js132963515303337872 0
@@ -2547,7 +2548,7 @@
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\procedure.d.ts132963515284713372 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\procedure.js132963515202547182 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\pseudo-selectors132963515285812159 1
-144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-terser\src132963515190069300 1
+144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-terser\src132963515190767448 1
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\sort.js132963515208088611 0
 195C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\browser.js132963515225663574 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\css-select\lib\types.d.ts132963515286506002 0
@@ -2580,7 +2581,7 @@
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig\dist\ExplorerBase.d.ts.map132963515223796782 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig\dist\getDirectory.d.ts132963515285576507 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig\dist\getDirectory.js132963515195911748 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\lib132963515188294077 1
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\lib132963515188852581 1
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig\dist\getPropertyByPath.js132963515196790007 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@types\parse-json132963515191086581 1
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\cosmiconfig\dist\getPropertyByPath.js.map132963515239122312 0
@@ -2638,7 +2639,7 @@
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\parcel_sourcemap_wasm132963515301602519 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\AD.js132963515196959555 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\AG.js132963515207259256 0
-139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg132963515195941702 1
+139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg132963515200436486 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\AL.js132963515223249307 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\alt-as.js132963515230791093 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\alt-na.js132963515232056671 0
@@ -2738,7 +2739,7 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\MR.js132963515331922476 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\MS.js132963515331932441 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\MT.js132963515331932441 0
-198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\nested132963515287288484 1
+198C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\nested132963515287487953 1
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\package.json132963515194625199 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\MW.js132963515332032178 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\NC.js132963515332321797 0
@@ -2763,7 +2764,7 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\PW.js132963515336274725 0
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-terser\package.json132963515194136508 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\PY.js132963515336294666 0
-132C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight132963515189411065 1
+132C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight132963515191425690 1
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\textencoder.js132963515339581930 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\RU.js132963515337491461 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\SA.js132963515337750770 0
@@ -2804,7 +2805,7 @@
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\VN.js132963515340140434 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\WS.js132963515340738822 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\YT.js132963515340958233 0
-146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\src132963515228412698 1
+146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\src132963515298105660 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\regions\ZW.js132963515340989791 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_create_super.js132963515302829232 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-html\lib132963515188842622 1
@@ -2820,7 +2821,7 @@
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\avif.js132963515293455741 0
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\background-attachment.js132963515294616055 0
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\LICENSE132963515187166345 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\src132963515208841819 1
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\src132963515211327706 1
 175C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\background-repeat-round-space.js132963515296410991 0
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\battery-status.js132963515296849043 0
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-mediaqueries.js132963515310542814 0
@@ -2872,7 +2873,7 @@
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\index.js132963515284214692 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-display-contents.js132963515304075899 0
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-exclusions.js132963515304135733 0
-157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\chalk\types132963515196660377 1
+157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\chalk\types132963515196859817 1
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-featurequeries.js132963515304165652 0
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-filter-function.js132963515304205546 0
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\css-filters.js132963515304225499 0
@@ -2970,7 +2971,7 @@
 169C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\date-tolocaledatestring.js132963515318861168 0
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\decorators.js132963515318895019 0
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\details.js132963515318904998 0
-193C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines132963515300569069 1
+193C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines132963515309895555 1
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\deviceorientation.js132963515318914959 0
 190C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json132963515289204038 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\test\replaceBundleReferences.test.js132963515297606983 0
@@ -3032,7 +3033,7 @@
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\hardwareconcurrency.js132963515326300460 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\heif.js132963515326350353 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\public\BundleGraph.js132963515289194107 0
-145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-babel\src132963515228482509 1
+145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-babel\src132963515231986920 1
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\hevc.js132963515326400193 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\hidden.js132963515326420185 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\html5semantic.js132963515326928782 0
@@ -3058,7 +3059,7 @@
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\input-minlength.js132963515327927870 0
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\acorn\CHANGELOG.md132963515201553719 0
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\input-range.js132963515327977760 0
-145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-image\src132963515194754843 1
+145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-image\src132963515196979498 1
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\input-selection.js132963515327997720 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\insert-adjacent.js132963515328017651 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\internationalization.js132963515328301679 0
@@ -3144,8 +3145,8 @@
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\callsites\package.json132963515187186387 0
 169C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\registerprotocolhandler.js132963515337022793 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\rel-noopener.js132963515337042670 0
-191C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory132963515287288484 1
-162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\application-targets132963515307615071 1
+191C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory132963515301490141 1
+162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\application-targets132963515307625027 1
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\rel-noreferrer.js132963515337062708 0
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\supports-color\readme.md132963515194665239 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\caniuse-lite\data\features\rem.js132963515337092577 0
@@ -3247,7 +3248,7 @@
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\boolbase\README.md132963515188543385 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\base-x\LICENSE.md132963515190787380 0
 135C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\base-x\package.json132963515189361215 0
-134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\src132963515202607022 1
+134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\src132963515208008908 1
 192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0132963515231936990 1
 132C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\base-x\README.md132963515191904397 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test132963515285092348 1
@@ -3316,7 +3317,7 @@
 175C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_class_static_private_field_destructure.js132963515302739551 0
 172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.js132963515302769397 0
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_class_static_private_field_update.js132963515302779367 0
-144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-json\lib132963515188244190 1
+144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-json\lib132963515188822656 1
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_construct.js132963515302799311 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\applyRuntimes.js132963515228213242 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\src\_create_class.js132963515302809290 0
@@ -3389,7 +3390,7 @@
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\summarizeRequest.js132963515303916343 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_decorate.js132963515286815906 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_define_property.js132963515288529922 0
-192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob132963515292559195 1
+192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob132963515301782045 1
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\src\watchman\IPC.hh132963515262955229 0
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_get_prototype_of.js132963515291781278 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@swc\helpers\lib\_initializer_define_property.js132963515292649011 0
@@ -3428,7 +3429,7 @@
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\fs-search132963515298105660 1
 129C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph132963515228352857 1
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger132963515195612543 1
-182C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob132963515300220006 1
+182C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob132963515301971520 1
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi132963515195263556 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core132963515300409507 1
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css132963515191944292 1
@@ -3438,7 +3439,7 @@
 192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-musl.node132963515300608960 0
 135C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js132963515235005853 1
 136C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg132963515191854615 1
-212C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1\subfolder2132963515299601657 1
+212C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1\subfolder2132963515299631588 1
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-babel\lib\remapAstLocations.js132963515224375493 0
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\plugin132963515191804737 1
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-dev-server132963515231996899 1
@@ -3506,7 +3507,7 @@
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\darwin-arm64132963515285832093 1
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-svg\src\SVGPackager.js132963515190996889 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\darwin-x64132963515289770198 1
-151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\linux-x64132963515293016961 1
+151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\linux-x64132963515297916165 1
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\win32-x64132963515295920668 1
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src132963515232066651 1
 172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\watcher\prebuilds\linux-x64\node.napi.glibc.node132963515294675900 0
@@ -3539,7 +3540,7 @@
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\src\generateBuildMetrics.js132963515228283053 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\chalk132963515196660377 1
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\src\getExisting.js132963515231927015 0
-150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-service-worker\src132963515190069300 1
+150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-service-worker\src132963515190757468 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\src\getRootDir.js132963515232266127 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\src\glob.js132963515237081386 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\src\http-server.js132963515243760281 0
@@ -3560,11 +3561,11 @@
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\utils\lib\index.js.map132963515301991478 0
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\types\package.json132963515195722250 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\types\lib\index.d.ts132963515197238802 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\lib132963515191834633 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\lib132963515197178961 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\LICENSE132963515187355833 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\package.json132963515201493864 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\src132963515195592602 1
-144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\test132963515195941702 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\src132963515197966860 1
+144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\test132963515196630445 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\lib\Graph.js132963515207669771 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\src\dependencies.js132963515190986892 0
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-svg\src\inline.js132963515195742197 0
@@ -3575,17 +3576,17 @@
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\lib132963515194764833 1
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE132963515187355833 0
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\package.json132963515198166318 0
-158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src132963515190777411 1
+158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src132963515196700246 1
 189C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src\ReactRefreshWrapTransformer.js132963515196829914 0
 181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\.eslintrc.json132963515197388398 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@lezer\common\dist\index.cjs132963515190747488 0
 177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js132963515189460941 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\ParcelConfig.js132963515302071280 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\lib132963515188244190 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\lib132963515188822656 1
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\ParcelConfig.js132963515302131088 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\LICENSE132963515187805393 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\package.json132963515194186368 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\src132963515190059334 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\src132963515190777411 1
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-raw\lib\RawTransformer.js132963515189261482 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-posthtml\lib132963515191814672 1
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-posthtml\src132963515194754843 1
@@ -3603,7 +3604,7 @@
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\package.json132963515220468853 0
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\parcel-swc.darwin-arm64.node132963515477005474 0
 174C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\parcel-swc.linux-arm-gnueabihf.node132963515664652275 0
-149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config132963515201444003 1
+149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config132963515207779469 1
 171C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\parcel-swc.linux-arm64-musl.node132963515842662003 0
 169C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-js\parcel-swc.linux-x64-musl.node132963516024162519 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\dist\wasm.js132963515238045004 0
@@ -3614,7 +3615,7 @@
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-image\LICENSE132963515187805393 0
 207C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\package.json132963515309885614 0
 129C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@lezer\common132963515196710217 1
-133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\code-frame132963515189401089 1
+133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\code-frame132963515191415698 1
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-image\package.json132963515197956912 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\lib\Transformation.js132963515304255414 0
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-image\src\ImageTransformer.js132963515190946963 0
@@ -3625,7 +3626,7 @@
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\applyRuntimes.js132963515228472532 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-html\lib132963515196031421 1
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-html\LICENSE132963515187805393 0
-192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude132963515296520695 1
+192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude132963515301370575 1
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-html\package.json132963515198106519 0
 160C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-html\src\dependencies.js132963515191306079 0
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\color-name132963515196630445 1
@@ -3637,7 +3638,7 @@
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\resolver-default\src\DefaultResolver.js132963515190956931 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\LICENSE132963515187226181 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-css\package.json132963515194296074 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-css\src132963515190059334 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-css\src132963515190747488 1
 172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-react-refresh\src\ReactRefreshRuntime.js132963515190966925 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-css\src\CSSTransformer.js132963515191315971 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\transformer-css\lib\CSSTransformer.js132963515189271437 0
@@ -3655,8 +3656,8 @@
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\parcel_sourcemap_node132963515301480085 1
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two132963515309945431 1
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\README.md132963515246821983 0
-138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\src132963515232036803 1
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\test132963515199997682 1
+138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\src132963515239142252 1
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\test132963515201513819 1
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\src\node.js132963515207839301 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\src\SourceMap.js132963515212044259 0
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\source-map\parcel_sourcemap_wasm\Cargo.toml132963515301612492 0
@@ -3691,7 +3692,7 @@
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\fs\src\find.js132963515191684977 0
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-react-refresh\LICENSE132963515187845328 0
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-react-refresh\package.json132963515194136508 0
-149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-react-refresh\src132963515190059334 1
+149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-react-refresh\src132963515190757468 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\LICENSE132963515189939651 0
 173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\duplicate-targets\package.json132963515309252343 0
 173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js132963515235515534 0
@@ -3710,7 +3711,7 @@
 185C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\package.json132963515293455741 0
 173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\browser\prefetch-loader.js132963515285082358 0
 169C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\src\helpers\browser\wasm-loader.js132963515289064421 0
-154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\browser132963515285566603 1
+154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\browser132963515286825885 1
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\cacheLoader.js132963515197238802 0
 164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js132963515221208225 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-js\lib\helpers\node132963515287298476 1
@@ -3732,7 +3733,7 @@
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\src\loaders\.eslintrc.json132963515198196241 0
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\helper-validator-identifier\package.json132963515195881825 0
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js132963515194834782 0
-155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\lib\loaders132963515190867170 1
+155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\runtime-browser-hmr\lib\loaders132963515191385780 1
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\resolver-default\lib\DefaultResolver.js132963515189291397 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map132963515241388346 0
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\reporter-dev-server\LICENSE132963515187974919 0
@@ -3755,7 +3756,7 @@
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-raw\package.json132963515194156462 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\public\BundleGraph.js132963515291841116 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@lezer\common\dist\index.js132963515194764833 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-raw\src132963515190069300 1
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-raw\src132963515190767448 1
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@mischnic\json-sourcemap\dist132963515195911748 1
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\lib132963515230840974 1
 168C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\color-convert\index.js132963515194206402 0
@@ -3763,7 +3764,7 @@
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\package.json132963515237131258 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src\.eslintrc.json132963515232276100 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src\dev-prelude.js132963515195602623 0
-134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\test132963515202656909 1
+134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\test132963515211257850 1
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src\ESMOutputFormat.js132963515201493864 0
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src\GlobalOutputFormat.js132963515207669771 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\src\helpers.js132963515211257850 0
@@ -3776,19 +3777,19 @@
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\Environment.test.js132963515299479406 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-js\lib\utils.js132963515231180109 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-html\LICENSE132963515187915109 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-html\src132963515190069300 1
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-html\src132963515190777411 1
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-html\src\HTMLPackager.js132963515191336051 0
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-css\LICENSE132963515187895267 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-css\package.json132963515194515490 0
-140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-css\src132963515190069300 1
+140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\packager-css\src132963515190777411 1
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\package.json132963515286845826 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\empty132963515287438072 1
-177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed132963515288119064 1
+177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed132963515288769306 1
 162C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages132963515231837341 1
-164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\a132963515210615606 1
-170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0132963515219870555 1
-168C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers132963515231927015 1
-172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0132963515228324455 1
+164C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\a132963515292649011 1
+170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0132963515293076785 1
+168C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers132963515293705073 1
+172C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0132963515293425829 1
 181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\index.js132963515228372803 0
 177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\packages\peers\index.js132963515231966924 0
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\fs\lib\browser.js.map132963515218332728 0
@@ -3796,7 +3797,7 @@
 174C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules132963515206960078 1
 174C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\package.json132963515291831172 0
 185C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage\package.json132963515292589107 0
-178C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo132963515197986801 1
+178C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo132963515290358596 1
 126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\design\mobile-modal.jpg132842392870000000 0
 183C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js132963515206960078 0
 191C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json132963515290807375 0
@@ -3817,7 +3818,7 @@
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\css\node\targets.d.ts132963515197418321 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-terser\LICENSE132963515187925074 0
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-terser\src\TerserOptimizer.js132963515190976925 0
-142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo\src132963515190069300 1
+142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo\src132963515190767448 1
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-svgo\src\SVGOOptimizer.js132963515190986892 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-image\native.js132963515191864498 0
 189C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\bar.js132963515202666879 0
@@ -3834,7 +3835,7 @@
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-htmlnano\lib\HTMLNanoOptimizer.js132963515189331286 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css\lib132963515188942339 1
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css\LICENSE132963515187935042 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css\src132963515190238844 1
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css\src132963515190877148 1
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\optimizer-css\src\CSSOptimizer.js132963515191076603 0
 146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\lib132963515297966038 1
 207C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b\index.js132963515293495658 0
@@ -3852,14 +3853,14 @@
 174C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm132963515231897100 1
 176C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased132963515300738612 1
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\css-win32-x64-msvc\README.md132963515196909687 0
-181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file132963515284204711 1
+181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file132963515300688768 1
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\src\index.js132963515220488797 0
-182C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias132963515296032005 1
+182C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias132963515301300737 1
 184C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser132963515301400493 1
 165C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\chalk\index.js.flow132963515190617851 0
 190C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias132963515301330684 1
 185C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback132963515301430407 1
-183C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module132963515297716728 1
+183C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module132963515301652399 1
 197C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\dist.js132963515239082389 0
 202C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\package.json132963515301891741 0
 199C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\source.js132963515299372272 0
@@ -3886,7 +3887,7 @@
 189C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\foo.js132963515267610158 0
 190C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\main.js132963515296032005 0
 185C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\package.json132963515300838352 0
-179C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg132963515282996881 1
+179C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg132963515300628910 1
 188C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\index.js132963515282996881 0
 192C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\package.json132963515300638882 0
 205C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules132963515231976899 1
@@ -3900,12 +3901,12 @@
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default\package.json132963515194186368 0
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default\src\DefaultNamer.js132963515191026806 0
 157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\namer-default\lib\DefaultNamer.js132963515189361215 0
-141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi\src132963515190029431 1
-142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi\test132963515191495525 1
+141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi\src132963515190707640 1
+142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi\test132963515192063967 1
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js132963515190907058 0
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\lib132963515188862559 1
 138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\LICENSE132963515187974919 0
-135C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\test132963515191605207 1
+135C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\test132963515194176392 1
 144C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\logger\lib\Logger.js132963515189361215 0
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\hash\index.js.flow132963515188702959 0
 141C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\hash\package.json132963515194585295 0
@@ -3916,7 +3917,7 @@
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\LICENSE132963515187295983 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\src132963515227076318 1
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\test\AdjacencyList.test.js132963515197178961 0
-146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\test\integration132963515188433683 1
+146C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\test\integration132963515189251484 1
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\src\AdjacencyList.js132963515195861877 0
 148C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\src\Disposable.js132963515191046730 0
 149C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\graph\src\ContentGraph.js132963515200456422 0
@@ -3941,7 +3942,7 @@
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\src\index.js132963515197966860 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\lib\index.js132963515197178961 0
 150C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\events\lib\ValueEmitter.js132963515207259256 0
-139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\test132963515191864498 1
+139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\test132963515194306051 1
 156C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\test\markdown.test.js132963515194625199 0
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\diagnostic\src\diagnostic.js132963515191336051 0
 173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\css-win32-x64-msvc\parcel-css.win32-x64-msvc.node132963515295711240 0
@@ -3955,12 +3956,12 @@
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\PublicBundle.test.js132963515303168323 0
 166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js132963515303238236 0
 155C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\TargetRequest.test.js132963515304215520 0
-157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\common-targets132963515307635002 1
-159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-malformed132963515190857218 1
-163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-node-pipeline132963515195622527 1
-166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-plugin-not-found132963515197168991 1
+157C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\common-targets132963515307654977 1
+159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-malformed132963515191365866 1
+163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-node-pipeline132963515195861877 1
+166C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-plugin-not-found132963515197398376 1
 167C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\custom-format-infer-type132963515307724781 1
-173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file132963515300020540 1
+173C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file132963515309411994 1
 158C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-targets132963515309431866 1
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\module-a.js132963515301300737 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\module-b.js132963515301350629 0
@@ -3973,7 +3974,7 @@
 176C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json132963515309471741 0
 174C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\library-scopehoist\package.json132963515309461772 0
 181C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\library-custom-scopehoist\package.json132963515309451807 0
-177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src132963515300020540 1
+177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src132963515300080381 1
 186C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src\index.js132963515300170142 0
 179C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json132963515309381986 0
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src132963515299850996 1
@@ -3987,7 +3988,7 @@
 177C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc132963515188543385 0
 190C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules132963515218312791 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config\.parcelrc132963515203750888 0
-159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config\subfolder132963515207769485 1
+159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\config\subfolder132963515208078632 1
 170C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\test\fixtures\common-targets\package.json132963515307654977 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\BundleGraph.js132963515291189378 0
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\core\src\Environment.js132963515299302462 0
@@ -4042,7 +4043,7 @@
 151C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\compressor-raw\package.json132963515194186368 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\compressor-raw\lib\RawCompressor.js132963515189341258 0
 137C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\src132963515262444541 1
-138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\test132963515188413732 1
+138C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\test132963515269166629 1
 152C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\test\fixtures\a.js132963515189421036 0
 154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\codeframe\lib\codeframe.js.map132963515296281334 0
 133C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\cache\lib132963515219473055 1
@@ -4055,7 +4056,7 @@
 142C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\cache\lib\types.js132963515208038744 0
 143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\lib132963515188852581 1
 147C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\LICENSE132963515187954984 0
-143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\src132963515190498157 1
+143C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\src132963515191016771 1
 161C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@parcel\bundler-default\src\DefaultBundler.js132963515191665065 0
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@mischnic\json-sourcemap132963515190917034 1
 153C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@mischnic\json-sourcemap\package.json132963515190488257 0
@@ -4078,7 +4079,7 @@
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules132963515179377559 1
 145C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\package.json132963515191744817 0
 159C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\color-convert132963515196859817 1
-154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\has-flag132963515190079277 1
+154C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\has-flag132963515191345904 1
 171C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\supports-color\browser.js132963515188932353 0
 169C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\supports-color\index.js132963515190597892 0
 163C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\node_modules\@babel\highlight\node_modules\has-flag\index.js132963515188932353 0
@@ -4119,11 +4120,12 @@
 139C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\images\avatars\image-ramsesmiron.png132842392870000000 0
 140C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\images\avatars\image-ramsesmiron.webp132842392870000000 0
 134C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\favicon-32x32.654148d5.png132963962735172104 0
-126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3a01df49.css132963985065685049 0
-125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3d214d75.js132963987866038019 0
+126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3a01df49.css132964023863696859 0
+125C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.3d214d75.js132964023856612542 0
 126C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.cdd200e8.css132963985960278696 0
 130C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.cdd200e8.css.map132963985960288675 0
 118C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.html132963962734820105 0
+116C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\dist\index.js132964023587123538 0
 127C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\design\active-states.jpg132842392870000000 0
 128C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\design\desktop-design.jpg132842392870000000 0
 127C:\Users\Administrator\Desktop\front-end mentor challengs\interactive-comments-section-main\Ende addis\design\desktop-modal.jpg132842392870000000 0

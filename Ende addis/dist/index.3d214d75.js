@@ -530,15 +530,19 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 // import * as model from "./src/model.js";
 var _commentViewJs = require("./src/commentView.js");
 var _commentViewJsDefault = parcelHelpers.interopDefault(_commentViewJs);
+var _commentFieldJs = require("./src/commentField.js");
 // import { async } from "regenerator-runtime";
 // import commentView from "./src/commentView.js";
 fetch("../data.json").then((res)=>res.json()
 ).then((data)=>{
     _commentViewJsDefault.default.render(data.comments[0]);
     _commentViewJsDefault.default.render(data.comments[1]);
-});
+    console.log(data);
+    return data.currentUser;
+}).then((user)=>_commentFieldJs.field.render(user)
+);
 
-},{"./src/commentView.js":"G8mbZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"G8mbZ":[function(require,module,exports) {
+},{"./src/commentView.js":"G8mbZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./src/commentField.js":"k8aWd"}],"G8mbZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./view.js");
@@ -667,6 +671,40 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
+},{}],"k8aWd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "field", ()=>field
+);
+var _viewJs = require("./view.js");
+class CommentField extends _viewJs.View {
+    _parentElement = document.querySelector(".comment-section ");
+    _generateMarkup() {
+        return `
+    <section class="section-comment-send grid grid--2-cols">
+        <form action="submit" class="comment-form">
+            <textarea
+            name="comment-field"
+            class="comment-field"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Add a comment..."
+            ></textarea>
+        </form>
+
+        <img
+            class="avatar-typing"
+            src="${this._data.image.png}"
+            alt="photo of ${this._data.username}"
+        />
+        <button class="btn btn-send">Send</button>
+    </section>
+    `;
+    }
+}
+const field = new CommentField();
+
+},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
 
 //# sourceMappingURL=index.3d214d75.js.map

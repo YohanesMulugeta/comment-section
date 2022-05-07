@@ -209,7 +209,8 @@
   background-color: hsl(238, 40%, 52%);
   color: hsl(0, 0%, 100%);
 
-  justify-self: end;
+  /* cursor: pointer; */
+  /* justify-self: end; */
 }
 
 /* .avatar-comment {

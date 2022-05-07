@@ -15,7 +15,7 @@ class CommentView extends View {
 
     // console.log(this._data);
     return `
-     <div class="comment-card grid grid--2-cols">
+     <div class="comment-card grid grid--2-cols" data-id = "${this._data.id}">
       <div class="avatar-container flex">
         <img
           class="img-avatar"
