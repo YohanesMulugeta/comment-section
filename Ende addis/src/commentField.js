@@ -27,15 +27,19 @@ class CommentField extends View {
     `;
   }
 
-  init(data) {
+  init(data, sendHandler) {
     this.render(data);
+    this.events(sendHandler);
   }
 
-  events() {
+  events(sendHandler) {
     this._btnSend = document.querySelector(".btn-send");
+    const textarea = document.querySelector(".comment-field");
 
-    this._btnSend.addEventListener("click", (e) => {
-      console.log(document.querySelector(".comment-field").value);
+    this._btnSend.addEventListener("click", () => {
+      sendHandler(textarea.value);
+
+      textarea.value = null;
     });
   }
 }
