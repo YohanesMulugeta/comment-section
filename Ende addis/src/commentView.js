@@ -82,6 +82,11 @@ class CommentView extends View {
   ////////////////////////////////////////////////              PARENT ELEMENT SETER
   ////////////////////////////////////////////////
 
+  init(data) {
+    data.forEach((comment) => {
+      this.render(comment);
+    });
+  }
   // set parentElement(element) {
   //   this._paretnElement = element;
   // }

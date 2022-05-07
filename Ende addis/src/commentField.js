@@ -27,6 +27,10 @@ class CommentField extends View {
     `;
   }
 
+  init(data) {
+    this.render(data);
+  }
+
   events() {
     this._btnSend = document.querySelector(".btn-send");
 

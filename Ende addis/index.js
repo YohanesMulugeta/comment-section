@@ -6,16 +6,16 @@ const commentRenderer = function (comment) {
   post.render(comment);
 };
 
-const initialCommentRenderer = function () {
-  model.state.comments.forEach((comment) => {
-    commentRenderer(comment);
-  });
-};
+// const initialCommentRenderer = function () {
+//   model.state.comments.forEach((comment) => {
+//     commentRenderer(comment);
+//   });
+// };
 
 const init = function () {
-  initialCommentRenderer();
-  field.render(model.state.currentUser);
-  field.events();
+  // initialCommentRenderer();
+  field.init(model.state.currentUser);
+  post.init(model.state.comments);
 };
 
 init();
