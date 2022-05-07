@@ -62,4 +62,8 @@
     justify-self: center;
     width: 4.6rem;
   }
+
+  .replied-container {
+    margin-left: 3.2rem;
+  }
 }

@@ -158,13 +158,22 @@
   grid-column: span 2;
 }
 
+.replying-to {
+  color: hsl(238, 40%, 52%);
+  font-weight: 600;
+}
+
 /* ///////////////////////////        REPLIED CONTAINER */
+
 .replied-container {
   flex-direction: column;
+  gap: 0.8rem;
 
+  transform: translateY(-0.8rem);
   margin-left: 1.6rem;
-  border-left: 1px solid hsl(207, 6%, 64%);
   padding-left: 1.6rem;
+
+  border-left: 1px solid hsl(207, 6%, 64%);
 }
 
 /* //////////////////////////////////////// */
