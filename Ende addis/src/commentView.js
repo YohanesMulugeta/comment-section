@@ -1,7 +1,7 @@
 import { View } from "./view.js";
 
 class CommentView extends View {
-  repliedContainer = `<div class="replied-container flex"></div>`;
+  repliedContainer;
   /////////////////////////////////////////////////////             MARKUP GENERATOR
   ////////////////////////////////
   _generateMarkup(replied) {
@@ -15,7 +15,9 @@ class CommentView extends View {
 
     // console.log(this._data);
     return `
-     <div class="comment-card grid grid--2-cols" id = "${this._data.id}">
+     <div class="comment-card grid grid--2-cols" id = "${
+       this._data.id
+     }" data-id = "${this._data.id}">
       <div class="avatar-container flex">
         <img
           class="img-avatar"
@@ -81,6 +83,10 @@ class CommentView extends View {
 
   ////////////////////////////////////////////////              PARENT ELEMENT SETER
   ////////////////////////////////////////////////
+
+  repliedContainerSetter(id) {
+    this.repliedContainer = `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+  }
 
   init(data) {
     data.forEach((comment) => {

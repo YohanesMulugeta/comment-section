@@ -4,8 +4,24 @@ class CommentField extends View {
   _parentElement = document.querySelector(".comment-section ");
   _btnSend;
 
-  // ////////////////////////////////////////          MARKUP GENERATOR
-  //////////////////////////////////////////
+  /* ================================================== the RENDER METHOD ========================================= */
+
+  render(data, parentElId, sendHandler) {
+    if (parentElId) this.parentSet(parentElId);
+    // console.log(this._parentElement);
+    this._data = data;
+
+    // generating the markup
+    const markup = this._generateMarkup();
+
+    // RENDERING the replied markup to the dom
+    this._parentElement.insertAdjacentHTML("beforeend", markup);
+
+    // calling the eventListner initializer with the event handler
+    this.events(sendHandler);
+  }
+
+  //  ====================================================== MARKUP GENERATOR =========================================
 
   _generateMarkup() {
     return `
@@ -31,30 +47,26 @@ class CommentField extends View {
     `;
   }
 
-  //////////////////////////////////////////              INITIALIZER
-  /////////////////////////////////////////
-
-  init(data, sendHandler) {
-    this.render(data);
-    this.events(sendHandler);
-
-    this._textarea = document.querySelector(".comment-field");
-  }
-
-  ///////////////////////////////////////       SEND BUTTON EVENT LISTNING AND HANDLING
-  //////////////////////////////////////
+  /*============================================ SEND BUTTON event listning and handling ========================== */
 
   events(sendHandler) {
+    this._textarea = document.querySelector(".comment-field");
+
     // this is because we cannot select what doesnt exist..
     this._btnSend = document.querySelector(".btn-send");
 
-    // EVENT LSTNER FOR send-btn
-    this._btnSend.addEventListener("click", () => {
+    const handler = () => {
+      console.log("clicked");
       if (!this._textarea.value) return;
       sendHandler(this._textarea.value);
 
       this._textarea.value = null;
-    });
+    };
+
+    this._btnSend.removeEventListener("click", handler);
+
+    // EVENT LSTNER FOR send-btn
+    this._btnSend.addEventListener("click", handler);
   }
 }
 
