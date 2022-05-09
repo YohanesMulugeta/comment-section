@@ -1,0 +1,250 @@
+.score-container, .btn-score {
+  color: #324152;
+  background-color: #eaecf1;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.btn-score:hover {
+  transform: scale(1.25);
+}
+
+.btn-score {
+  height: 3.2rem;
+  align-items: center;
+  padding: 0 .4rem;
+}
+
+.score-container {
+  width: 8rem;
+  border-radius: 1rem;
+  justify-content: space-around;
+  justify-self: start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.reply-container, .delete-container, .edit-container {
+  width: 8.4rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  justify-content: space-between;
+  justify-self: end;
+  align-items: center;
+  padding: .4rem .8rem;
+  font-weight: 600;
+  transition: all .5s;
+}
+
+.reply-container, .edit-container {
+  color: #5457b6;
+}
+
+.reply-container:hover, .reply-container:active {
+  background-color: #eaecf1;
+  padding: 0 .8rem;
+}
+
+.reply-container > :first-child, .replied-container > :first-child, .edit-container > :first-child, .edit-container > :first-child, .delete-container > :first-child, .delete-container > :first-child {
+  transition: all .3s;
+}
+
+.reply-container:hover {
+  padding-left: .4rem;
+  padding-right: .8rem;
+}
+
+.reply-container:hover > :first-child, .reply-container:active > :first-child, .edit-container:hover > :first-child, .edit-container:active > :first-child, .delete-container:hover > :first-child, .delete-container:active > :first-child {
+  transform: scale(1.2);
+}
+
+.edit-container {
+  width: 7rem;
+  cursor: pointer;
+}
+
+.delete-container {
+  color: #ed6468;
+}
+
+.reply, .delete {
+  cursor: pointer;
+}
+
+.delete-edit-container {
+  justify-content: flex-end;
+  align-items: center;
+  gap: .6rem;
+}
+
+.avatar-container {
+  grid-column: span 2;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-name {
+  color: #324152;
+  font-weight: 600;
+}
+
+.img-avatar {
+  transition: all .3s ease-out;
+}
+
+.img-avatar:hover {
+  transform: scale(1.3)translateY(3%);
+}
+
+.comment-section, .comment-card-container {
+  flex-direction: column;
+}
+
+.comment-section {
+  gap: 2.4rem;
+}
+
+.comment-card-container, .replied-container {
+  gap: 1.6rem;
+}
+
+.comment-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.6rem 1.2rem;
+  box-shadow: 0 0 5px #0000001a;
+}
+
+.comment {
+  grid-column: span 2;
+}
+
+.replying-to {
+  color: #5457b6;
+  font-weight: 600;
+}
+
+.replied-container {
+  border-left: 1px solid #9ea4a9;
+  flex-direction: column;
+  gap: .8rem;
+  margin-left: 1.6rem;
+  padding-left: 1.6rem;
+  transform: translateY(-.8rem);
+}
+
+.section-comment-send {
+  background-color: #fff;
+  border-radius: 1rem;
+  row-gap: .8rem;
+  padding: 2.4rem 1.6rem;
+  box-shadow: 0 0 5px #0000001a;
+}
+
+.comment-field {
+  width: 100%;
+  height: 10rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: .8rem 1.2rem;
+}
+
+.comment-form {
+  grid-column: span 2;
+}
+
+.btn-send {
+  text-transform: uppercase;
+  width: 7.2rem;
+  color: #fff;
+  background-color: #5457b6;
+  border-radius: .5rem;
+  justify-self: end;
+  padding: .8rem 1.6rem;
+  font-weight: 600;
+}
+
+.avatar-typing {
+  width: 3.2rem;
+  grid-column: 1;
+  align-self: center;
+}
+
+.btn-yes, .btn-cancel {
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: .5rem;
+  padding: 1.2rem 1.6rem;
+  font-weight: 600;
+}
+
+.btn-yes {
+  background-color: #ed6468;
+}
+
+.btn-yes:hover {
+  background-color: #e92b31;
+}
+
+.btn-yes:active {
+  background-color: #fb040c;
+}
+
+.btn-cancel {
+  background-color: #67727e;
+}
+
+.btn-cancel:hover {
+  background-color: #4e5256;
+}
+
+.btn-cancel:active {
+  color: #000;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 2px #0000001a;
+}
+
+.popup-header {
+  color: #324152;
+  font-weight: 600;
+}
+
+.popup-footer {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-card {
+  width: 30rem;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.6rem 1.2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px #0000001a;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  z-index: 666;
+  background-color: #67727ecc;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */

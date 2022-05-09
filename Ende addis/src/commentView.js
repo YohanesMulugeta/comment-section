@@ -4,7 +4,7 @@ class CommentView extends View {
   repliedContainer;
   /////////////////////////////////////////////////////             MARKUP GENERATOR
   ////////////////////////////////
-  _generateMarkup(replied) {
+  _generateMarkup(replied, rcId) {
     // Setting the apropriate parent element
     if (!replied) {
       this._parentElement = document.querySelector(".comment-card-container");
@@ -84,8 +84,19 @@ class CommentView extends View {
   ////////////////////////////////////////////////              PARENT ELEMENT SETER
   ////////////////////////////////////////////////
 
-  repliedContainerSetter(id) {
-    this.repliedContainer = `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+  repliedContainerSetter(parentElId) {
+    const rc = document.createElement("div");
+
+    // `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+    rc.classList.add("replied-container");
+    rc.classList.add("flex");
+
+    rc.id = rc.dataset.id = parentElId;
+
+    document.getElementById(parseInt(parentElId)).after(rc);
+
+    this.parentSet(parentElId);
+    // this.repliedContainer = `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
   }
 
   init(data) {

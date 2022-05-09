@@ -71,3 +71,48 @@ export const state = {
     },
   ],
 };
+
+/* ==================================================== score Updater ============================== */
+
+export const scoreUpdate = function (id, add = true) {
+  if (+id) {
+    // console.log(add);
+    if (add) state.comments[id - 1].score++;
+    else state.comments[id - 1].score--;
+
+    // persisting the updated state
+    persistState();
+
+    return state.comments[id - 1].score;
+  }
+  const parentId = parseInt(id);
+  const extension = +id.slice(-1);
+
+  if (add) state.comments[parentId - 1].replies[extension - 1].score++;
+  else state.comments[parentId - 1].replies[extension - 1].score--;
+
+  // persisting the updated state
+  persistState();
+  return state.comments[parentId - 1].replies[extension - 1].score;
+};
+
+// ====================================== LOCAL-STORAGE persist ======================================
+
+const persistState = function () {
+  localStorage.setItem("state", JSON.stringify(state));
+};
+
+/*========================================================  INITIALIZER function ==================================*/
+
+// localStorage.clear("state");
+
+const init = function () {
+  const newState = JSON.parse(localStorage.getItem("state"));
+
+  if (newState) {
+    state.comments = newState.comments;
+    state.currentUser = newState.currentUser;
+  }
+};
+
+init();

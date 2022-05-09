@@ -527,119 +527,203 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"bB7Pu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-// import * as model from "./src/model.js";
+var _modelJs = require("./src/model.js");
 var _commentViewJs = require("./src/commentView.js");
 var _commentViewJsDefault = parcelHelpers.interopDefault(_commentViewJs);
 var _commentFieldJs = require("./src/commentField.js");
-// import { async } from "regenerator-runtime";
-// import commentView from "./src/commentView.js";
-fetch("../data.json").then((res)=>res.json()
-).then((data)=>{
-    _commentViewJsDefault.default.render(data.comments[0]);
-    _commentViewJsDefault.default.render(data.comments[1]);
-    console.log(data);
-    return data.currentUser;
-}).then((user)=>_commentFieldJs.field.render(user)
-);
-
-},{"./src/commentView.js":"G8mbZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./src/commentField.js":"k8aWd"}],"G8mbZ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _viewJs = require("./view.js");
-class CommentView extends _viewJs.View {
-    repliedContainer = `<div class="replied-container flex"></div>`;
-    /////////////////////////////////////////////////////             MARKUP GENERATOR
-    ////////////////////////////////
-    _generateMarkup(replied) {
-        // Setting the apropriate parent element
-        if (!replied) this._parentElement = document.querySelector(".comment-card-container");
-        else this._parentElement = document.querySelector(".replied-container");
-        // console.log(this._data);
-        return `
-     <div class="comment-card grid grid--2-cols">
-      <div class="avatar-container flex">
-        <img
-          class="img-avatar"
-          src="${this._data.user.image.webp}"
-          alt="photo of ${this._data.user.username}"
-        />
-        <p class="user-name">${this._data.user.username}</p>
-        <p class="comment-time">${this._data.createdAt}</p>
-      </div>
-
-      <p class="comment">
-
-        ${replied ? "<span class='replying-to'>@" + this._data.replyingTo + "</span> " + this._data.content : this._data.content}
-      </p>
-
-      <!-- //////////////////////////////////////////////////////////         comment footer -->
-
-      <div class="score-container flex">
-        <button class="btn btn-score flex">
-          <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M6.33 10.896c.137 0 .255-.05.354-.149.1-.1.149-.217.149-.354V7.004h3.315c.136 0 .254-.05.354-.149.099-.1.148-.217.148-.354V5.272a.483.483 0 0 0-.148-.354.483.483 0 0 0-.354-.149H6.833V1.4a.483.483 0 0 0-.149-.354.483.483 0 0 0-.354-.149H4.915a.483.483 0 0 0-.354.149c-.1.1-.149.217-.149.354v3.37H1.08a.483.483 0 0 0-.354.15c-.1.099-.149.217-.149.353v1.23c0 .136.05.254.149.353.1.1.217.149.354.149h3.333v3.39c0 .136.05.254.15.353.098.1.216.149.353.149H6.33Z"
-              fill="hsl(211, 10%, 45%)"
-            />
-          </svg>
-        </button>
-
-        <p class="score">${this._data.score}</p>
-
-        <button class="btn btn-score flex">
-          <svg width="11" height="3" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M9.256 2.66c.204 0 .38-.056.53-.167.148-.11.222-.243.222-.396V.722c0-.152-.074-.284-.223-.395a.859.859 0 0 0-.53-.167H.76a.859.859 0 0 0-.53.167C.083.437.009.57.009.722v1.375c0 .153.074.285.223.396a.859.859 0 0 0 .53.167h8.495Z"
-              fill="hsl(211, 10%, 45%)"
-            />
-          </svg>
-        </button>
-      </div>
-
-      <!-- //////////////////////////////////////////////////////               REPLY PART -->
-      <!-- ////////////////////////////////////////////////////// -->
-
-      <div class="reply-container flex">
-        <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z"
-            fill="#5357B6"
-          />
-        </svg>
-
-        <label for="#reply" class="reply">Reply</label>
-      </div>
-    </div>
-    `;
-    }
-}
-const commentView = new CommentView();
-exports.default = commentView;
-
-},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ai2uB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "View", ()=>View
-);
-class View {
-    _data;
-    _parentElement;
-    render(data, replies = false) {
-        this._data = data;
-        // generating the markup
-        const markup = this._generateMarkup(replies);
-        // RENDERING the replied markup to the dom
-        this._parentElement.insertAdjacentHTML("beforeend", markup);
-        if (this._data.replies && this._data.replies.length >= 1) {
-            // RENDERING the replied container
-            this._parentElement.insertAdjacentHTML("beforeend", this.repliedContainer);
-            // RENDERING each REPLIED message
-            this._data.replies.forEach((reply)=>{
-                this.render(reply, true);
-            });
+var _scoreUpdateJs = require("./src/scoreUpdate.js");
+var _replyJs = require("./src/reply.js");
+const state = _modelJs.state;
+const commentRenderer = function(comment, RCid, replied) {
+    // if (RCid) post.render(comment, RCid);
+    // else post.render(comment);
+    _commentViewJsDefault.default.render(comment, RCid, replied);
+};
+// const initialCommentRenderer = function () {
+//   model.state.comments.forEach((comment) => {
+//     commentRenderer(comment);
+//   });
+// };
+/*======================================================== SEND-HANDLER =============================================*/ const sendHandler = function(content, idReplyingTo, inReplied) {
+    const comment = {
+        content: content,
+        createdAt: new Date().getDay(),
+        score: 0,
+        user: _modelJs.state.currentUser,
+        replies: []
+    };
+    if (idReplyingTo) {
+        const parentCommentId = parseInt(idReplyingTo);
+        // finding the index of the parent comment inside the state.comments array
+        const parentIndex = _modelJs.state.comments.findIndex((el)=>el.id === parentCommentId
+        );
+        const commentReplyTo = _modelJs.state.comments[parentIndex];
+        console.log(parentIndex);
+        let extensionId;
+        if (!+idReplyingTo) {
+            extensionId = +idReplyingTo.split("-")[1];
+            const index = commentReplyTo.replies.findIndex((el)=>+el.id.split("-")[1] === extensionId
+            );
+            const replyingTo = commentReplyTo.replies[index].user.username;
+            // console.log(replyingTo);
+            comment.replyingTo = replyingTo;
         }
+        if (+idReplyingTo) {
+            // GETTIN USER NAME
+            const replyingTo = commentReplyTo.user.username;
+            // setting USERNAME
+            comment.replyingTo = replyingTo;
+        }
+        // creating new EXTENSION ID
+        const newExtensionId = new Date().getTime();
+        // the id of the  new replied comment
+        comment.id = parentCommentId + "-" + newExtensionId;
+        _modelJs.state.comments[parentIndex].replies.push(comment);
+        // console.log(model.state.comments[parentCommentId - 1]);
+        // console.log(idReplyingTo);
+        commentRenderer(comment, parentCommentId + "RC", true);
+    // console.log(parentCommentId + "rc");
+    } else {
+        comment.id = new Date().getTime();
+        _modelJs.state.comments.push(comment);
+        commentRenderer(comment);
     }
-}
+    _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
+};
+// ============================================================= SCORE HANDLER ======================================
+const scoreHandler = function(currentScore, id, add) {
+    const score = _modelJs.scoreUpdate(id, add);
+    return score;
+};
+/*=================================================== REPLY Handler ======================================== */ const replyChecker = function(isRepliedContaier, commentId) {
+    const rcIdcId = parseInt(commentId) + "RCto" + commentId;
+    if (!isRepliedContaier) {
+        // checking whether the comment already have a container when clicked
+        const index = _modelJs.state.comments.findIndex((el)=>el.id === +commentId
+        );
+        const alreadyHaveReplies = _modelJs.state.comments[index].replies.length > 0;
+        console.log(alreadyHaveReplies);
+        // commentId because the field will create the replies  container and render it with the id of commentID + RC
+        _commentFieldJs.field.render(_modelJs.state.currentUser, rcIdcId, sendHandler, alreadyHaveReplies);
+        return alreadyHaveReplies;
+    } else // console.log(parseInt(rcId));
+    _commentFieldJs.field.render(_modelJs.state.currentUser, rcIdcId, sendHandler);
+// return false;
+};
+const init = function() {
+    // initialCommentRenderer();
+    _commentViewJsDefault.default.init(_modelJs.state.comments);
+    _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
+    _scoreUpdateJs.scoreInit(scoreHandler);
+    _replyJs.reply(replyChecker);
+};
+init();
+
+},{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEDha":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "state", ()=>state
+);
+parcelHelpers.export(exports, "scoreUpdate", ()=>scoreUpdate
+);
+const state = {
+    currentUser: {
+        image: {
+            png: "./images/avatars/image-juliusomo.png",
+            webp: "./images/avatars/image-juliusomo.webp"
+        },
+        username: "juliusomo"
+    },
+    comments: [
+        {
+            id: 1,
+            content: "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
+            createdAt: "1 month ago",
+            score: 12,
+            user: {
+                image: {
+                    png: "./images/avatars/image-amyrobson.png",
+                    webp: "./images/avatars/image-amyrobson.webp"
+                },
+                username: "amyrobson"
+            },
+            replies: []
+        },
+        {
+            id: 2,
+            content: "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
+            createdAt: "2 weeks ago",
+            score: 5,
+            user: {
+                image: {
+                    png: "./images/avatars/image-maxblagun.png",
+                    webp: "./images/avatars/image-maxblagun.webp"
+                },
+                username: "maxblagun"
+            },
+            replies: [
+                {
+                    id: "2-1",
+                    content: "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
+                    createdAt: "1 week ago",
+                    score: 7,
+                    replyingTo: "maxblagun",
+                    user: {
+                        image: {
+                            png: "./images/avatars/image-ramsesmiron.png",
+                            webp: "./images/avatars/image-ramsesmiron.webp"
+                        },
+                        username: "ramsesmiron"
+                    }
+                },
+                {
+                    id: "2-2",
+                    content: "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
+                    createdAt: "2 days ago",
+                    score: 2,
+                    replyingTo: "ramsesmiron",
+                    user: {
+                        image: {
+                            png: "./images/avatars/image-juliusomo.png",
+                            webp: "./images/avatars/image-juliusomo.webp"
+                        },
+                        username: "juliusomo"
+                    }
+                }, 
+            ]
+        }, 
+    ]
+};
+const scoreUpdate = function(id, add = true) {
+    if (+id) {
+        // console.log(add);
+        if (add) state.comments[id - 1].score++;
+        else state.comments[id - 1].score--;
+        // persisting the updated state
+        persistState();
+        return state.comments[id - 1].score;
+    }
+    const parentId = parseInt(id);
+    const extension = +id.slice(-1);
+    if (add) state.comments[parentId - 1].replies[extension - 1].score++;
+    else state.comments[parentId - 1].replies[extension - 1].score--;
+    // persisting the updated state
+    persistState();
+    return state.comments[parentId - 1].replies[extension - 1].score;
+};
+// ====================================== LOCAL-STORAGE persist ======================================
+const persistState = function() {
+    localStorage.setItem("state", JSON.stringify(state));
+};
+/*========================================================  INITIALIZER function ==================================*/ // localStorage.clear("state");
+const init = function() {
+    const newState = JSON.parse(localStorage.getItem("state"));
+    if (newState) {
+        state.comments = newState.comments;
+        state.currentUser = newState.currentUser;
+    }
+};
+init();
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
@@ -671,7 +755,132 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"k8aWd":[function(require,module,exports) {
+},{}],"G8mbZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _viewJs = require("./view.js");
+class CommentView extends _viewJs.View {
+    repliedContainer;
+    /////////////////////////////////////////////////////             MARKUP GENERATOR
+    ////////////////////////////////
+    _generateMarkup(replied, rcId) {
+        // Setting the apropriate parent element
+        if (!replied) this._parentElement = document.querySelector(".comment-card-container");
+        else this._parentElement = document.querySelector(".replied-container");
+        // console.log(this._data);
+        return `
+     <div class="comment-card grid grid--2-cols" id = "${this._data.id}" data-id = "${this._data.id}">
+      <div class="avatar-container flex">
+        <img
+          class="img-avatar"
+          src="${this._data.user.image.webp}"
+          alt="photo of ${this._data.user.username}"
+        />
+        <p class="user-name">${this._data.user.username}</p>
+        <p class="comment-time">${this._data.createdAt}</p>
+      </div>
+
+      <p class="comment">
+
+        ${replied ? "<span class='replying-to'>@" + this._data.replyingTo + "</span> " + this._data.content : this._data.content}
+      </p>
+
+      <!-- //////////////////////////////////////////////////////////         comment SCORE -->
+
+      <div class="score-container flex">
+        <button class="btn btn-score plus flex">
+          <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.33 10.896c.137 0 .255-.05.354-.149.1-.1.149-.217.149-.354V7.004h3.315c.136 0 .254-.05.354-.149.099-.1.148-.217.148-.354V5.272a.483.483 0 0 0-.148-.354.483.483 0 0 0-.354-.149H6.833V1.4a.483.483 0 0 0-.149-.354.483.483 0 0 0-.354-.149H4.915a.483.483 0 0 0-.354.149c-.1.1-.149.217-.149.354v3.37H1.08a.483.483 0 0 0-.354.15c-.1.099-.149.217-.149.353v1.23c0 .136.05.254.149.353.1.1.217.149.354.149h3.333v3.39c0 .136.05.254.15.353.098.1.216.149.353.149H6.33Z"
+              fill="hsl(211, 10%, 45%)"
+            />
+          </svg>
+        </button>
+
+        <p class="score">${this._data.score}</p>
+
+        <button class="btn btn-score minus flex">
+          <svg width="11" height="3" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.256 2.66c.204 0 .38-.056.53-.167.148-.11.222-.243.222-.396V.722c0-.152-.074-.284-.223-.395a.859.859 0 0 0-.53-.167H.76a.859.859 0 0 0-.53.167C.083.437.009.57.009.722v1.375c0 .153.074.285.223.396a.859.859 0 0 0 .53.167h8.495Z"
+              fill="hsl(211, 10%, 45%)"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- //////////////////////////////////////////////////////               REPLY PART -->
+      <!-- ////////////////////////////////////////////////////// -->
+
+      <div class="reply-container flex">
+        <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z"
+            fill="#5357B6"
+          />
+        </svg>
+
+        <label for="#reply" class="reply">Reply</label>
+      </div>
+    </div>
+    `;
+    }
+    ////////////////////////////////////////////////              PARENT ELEMENT SETER
+    ////////////////////////////////////////////////
+    repliedContainerSetter(parentElId) {
+        const rc = document.createElement("div");
+        // `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+        rc.classList.add("replied-container");
+        rc.classList.add("flex");
+        rc.id = rc.dataset.id = parentElId;
+        document.getElementById(parseInt(parentElId)).after(rc);
+        this.parentSet(parentElId);
+    // this.repliedContainer = `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+    }
+    init(data) {
+        data.forEach((comment)=>{
+            this.render(comment);
+        });
+    }
+}
+const commentView = new CommentView();
+exports.default = commentView;
+
+},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ai2uB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "View", ()=>View
+);
+class View {
+    _data;
+    _parentElement;
+    render(data, parentElId, replies = false) {
+        this._data = data;
+        // generating the markup
+        const markup = this._generateMarkup(replies);
+        // This will allow us to OVERIDE any parent setting made before rendering
+        if (parentElId) this.parentSet(parentElId);
+        // RENDERING the replied markup to the dom
+        this._parentElement.insertAdjacentHTML("beforeend", markup);
+        if (this._data.replies && this._data.replies.length >= 1) {
+            this.repliedContainerSetter(this._data.id + "RC");
+            // RENDERING the replied container
+            // this._parentElement.insertAdjacentHTML(
+            //   "beforeend",
+            //   this.repliedContainer
+            // );
+            // RENDERING each REPLIED message
+            this._data.replies.forEach((reply)=>{
+                this.render(reply, parseInt(this._data.id) + "RC", true);
+            });
+        }
+    }
+    parentSet(id) {
+        this._parentElement = document.getElementById(id);
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k8aWd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "field", ()=>field
@@ -679,6 +888,45 @@ parcelHelpers.export(exports, "field", ()=>field
 var _viewJs = require("./view.js");
 class CommentField extends _viewJs.View {
     _parentElement = document.querySelector(".comment-section ");
+    _btnSend;
+    /* ================================================== the RENDER METHOD ========================================= */ render(data, rcIdcId, sendHandler, haveReplies = true) {
+        // getting the ParentElId and the Comment replying to id
+        const [parentElId, cId] = rcIdcId ? rcIdcId.split("to") : [
+            null,
+            null
+        ];
+        const commentFieldContainer = document.querySelector(".section-comment-send");
+        if (parentElId && !haveReplies) {
+            /* ======================================= this CREATES the REPLIED-CONTAINER in the dom ===================== */ const rc = document.createElement("div");
+            // `<div class="replied-container flex" id = "${id}" data-id = "${id}"></div>`;
+            rc.classList.add("replied-container");
+            rc.classList.add("flex");
+            rc.id = rc.dataset.id = parentElId;
+            document.getElementById(parseInt(parentElId)).after(rc);
+            this.parentSet(parentElId);
+        }
+        if (parentElId && haveReplies) this.parentSet(parentElId);
+        // console.log(this._parentElement);
+        this._data = data;
+        if (commentFieldContainer?.parentElement.classList.contains("replied-container") && !commentFieldContainer.parentElement.querySelector(".comment-card")) {
+            const nullConta = commentFieldContainer.parentElement;
+            // console.log();
+            commentFieldContainer.remove();
+            nullConta.remove();
+        }
+        // REMOVING THE ALREADY EXISTED COMMENT FIELD
+        commentFieldContainer?.remove();
+        // generating the markup
+        const markup = this._generateMarkup();
+        // OVERIDING ANY ParentElement settings if no id is provided
+        if (!rcIdcId) this._parentElement = document.querySelector(".comment-section ");
+        // RENDERING the replied markup to the dom
+        this._parentElement.insertAdjacentHTML("beforeend", markup);
+        // console.log(document.getElementById(parentElId));
+        // calling the eventListner initializer with the event handler
+        this.events(sendHandler, cId);
+    }
+    //  ====================================================== MARKUP GENERATOR =========================================
     _generateMarkup() {
         return `
     <section class="section-comment-send grid grid--2-cols">
@@ -702,9 +950,68 @@ class CommentField extends _viewJs.View {
     </section>
     `;
     }
+    /*============================================ SEND BUTTON event listning and handling ========================== */ events(sendHandler, cId) {
+        this._textarea = document.querySelector(".comment-field");
+        // this is because we cannot select what doesnt exist..
+        this._btnSend = document.querySelector(".btn-send");
+        const handler = ()=>{
+            // console.log("clicked");
+            if (!this._textarea.value) return;
+            sendHandler(this._textarea.value, cId);
+            this._textarea.value = null;
+        };
+        this._btnSend.removeEventListener("click", handler);
+        // EVENT LSTNER FOR send-btn
+        this._btnSend.addEventListener("click", handler);
+    }
 }
 const field = new CommentField();
 
-},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
+},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hN0ub":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "scoreInit", ()=>scoreInit
+);
+const scoreUpdate = function(handler) {
+    window.addEventListener("click", (e)=>{
+        const target = e.target;
+        //   console.log(e.target);
+        if (!target.closest(".btn-score")) return;
+        const currentScore = +target.closest(".score-container").textContent.trim();
+        //   if (target.closest(".plus")) console.log(currentScore + 1);
+        const id = target.closest(".comment-card").id;
+        const newScore = handler(currentScore, id, target.closest(".plus") ? true : false);
+        document.getElementById(id).querySelector(".score").textContent = newScore;
+    // console.log()
+    });
+};
+const scoreInit = function(handler) {
+    scoreUpdate(handler);
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4l7Xb":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "reply", ()=>reply
+);
+var _viewJs = require("./view.js");
+var _commentFieldJs = require("./commentField.js");
+var _commentViewJs = require("./commentView.js");
+var _commentViewJsDefault = parcelHelpers.interopDefault(_commentViewJs);
+const reply = function(handler) {
+    const replyHandler = (e)=>{
+        // console.log("cl");
+        // GUARD KEY
+        if (!e.target.closest(".reply-container")) return;
+        const target = e.target;
+        const commentCardId = target.closest(".comment-card").dataset.id;
+        // this checks whether the Reply btn is clicked from the comment card inside a comment replied container or not
+        if (!target.closest(".replied-container")) handler(false, commentCardId);
+        else handler(true, commentCardId);
+    };
+    window.addEventListener("click", replyHandler);
+};
+
+},{"./view.js":"ai2uB","./commentField.js":"k8aWd","./commentView.js":"G8mbZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
 
 //# sourceMappingURL=index.3d214d75.js.map

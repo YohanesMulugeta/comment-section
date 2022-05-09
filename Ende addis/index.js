@@ -6,8 +6,11 @@ import { reply } from "./src/reply.js";
 
 const state = model.state;
 
-const commentRenderer = function (comment) {
-  post.render(comment);
+const commentRenderer = function (comment, RCid, replied) {
+  // if (RCid) post.render(comment, RCid);
+  // else post.render(comment);
+
+  post.render(comment, RCid, replied);
 };
 
 // const initialCommentRenderer = function () {
@@ -16,11 +19,10 @@ const commentRenderer = function (comment) {
 //   });
 // };
 
-///////////////////////////////////////////////////////      comment Send Handler
-//////////////////////////////////////////////////////
-const sendHandler = function (content) {
+/*======================================================== SEND-HANDLER =============================================*/
+
+const sendHandler = function (content, idReplyingTo, inReplied) {
   const comment = {
-    id: model.state.comments.length + 1,
     content: content,
     createdAt: new Date().getDay(),
     score: 0,
@@ -28,43 +30,98 @@ const sendHandler = function (content) {
     replies: [],
   };
 
-  model.state.comments.push(comment);
-  commentRenderer(comment);
+  if (idReplyingTo) {
+    const parentCommentId = parseInt(idReplyingTo);
+
+    // finding the index of the parent comment inside the state.comments array
+    const parentIndex = model.state.comments.findIndex(
+      (el) => el.id === parentCommentId
+    );
+
+    const commentReplyTo = model.state.comments[parentIndex];
+
+    console.log(parentIndex);
+    let extensionId;
+
+    if (!+idReplyingTo) {
+      extensionId = +idReplyingTo.split("-")[1];
+
+      const index = commentReplyTo.replies.findIndex(
+        (el) => +el.id.split("-")[1] === extensionId
+      );
+
+      const replyingTo = commentReplyTo.replies[index].user.username;
+
+      // console.log(replyingTo);
+      comment.replyingTo = replyingTo;
+    }
+
+    if (+idReplyingTo) {
+      // GETTIN USER NAME
+      const replyingTo = commentReplyTo.user.username;
+
+      // setting USERNAME
+      comment.replyingTo = replyingTo;
+    }
+
+    // creating new EXTENSION ID
+    const newExtensionId = new Date().getTime();
+
+    // the id of the  new replied comment
+    comment.id = parentCommentId + "-" + newExtensionId;
+
+    model.state.comments[parentIndex].replies.push(comment);
+    // console.log(model.state.comments[parentCommentId - 1]);
+
+    // console.log(idReplyingTo);
+    commentRenderer(comment, parentCommentId + "RC", true);
+    // console.log(parentCommentId + "rc");
+  } else {
+    comment.id = new Date().getTime();
+    model.state.comments.push(comment);
+    commentRenderer(comment);
+  }
+
+  field.render(model.state.currentUser, null, sendHandler);
 };
 
 // ============================================================= SCORE HANDLER ======================================
 const scoreHandler = function (currentScore, id, add) {
-  if (+id) {
-    // console.log(add);
-    if (add) model.state.comments[id - 1].score++;
-    else model.state.comments[id - 1].score--;
-    return model.state.comments[id - 1].score;
-  }
-  const parentId = parseInt(id);
-  const extension = +id.slice(-1);
+  const score = model.scoreUpdate(id, add);
 
-  if (add) model.state.comments[parentId - 1].replies[extension - 1].score++;
-  else model.state.comments[parentId - 1].replies[extension - 1].score--;
-
-  return model.state.comments[parentId - 1].replies[extension - 1].score;
-  // console.log(model.state.comments[id - 1]);
+  return score;
 };
 
-/*=================================================== REPLY CHECKER ======================================== */
+/*=================================================== REPLY Handler ======================================== */
 const replyChecker = function (isRepliedContaier, commentId) {
+  const rcIdcId = parseInt(commentId) + "RCto" + commentId;
+
   if (!isRepliedContaier) {
     // checking whether the comment already have a container when clicked
-    const alreadyHaveReplies =
-      model.state.comments[commentId - 1].replies.length > 0;
+
+    const index = model.state.comments.findIndex((el) => el.id === +commentId);
+    const alreadyHaveReplies = model.state.comments[index].replies.length > 0;
+
+    console.log(alreadyHaveReplies);
+    // commentId because the field will create the replies  container and render it with the id of commentID + RC
+    field.render(
+      model.state.currentUser,
+      rcIdcId,
+      sendHandler,
+      alreadyHaveReplies
+    );
 
     return alreadyHaveReplies;
+  } else {
+    // console.log(parseInt(rcId));
+    field.render(model.state.currentUser, rcIdcId, sendHandler);
   }
   // return false;
 };
 const init = function () {
   // initialCommentRenderer();
-  field.render(model.state.currentUser, null, sendHandler);
   post.init(model.state.comments);
+  field.render(model.state.currentUser, null, sendHandler);
   scoreInit(scoreHandler);
   reply(replyChecker);
 };
