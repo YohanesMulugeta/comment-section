@@ -534,10 +534,11 @@ var _commentFieldJs = require("./src/commentField.js");
 var _scoreUpdateJs = require("./src/scoreUpdate.js");
 var _replyJs = require("./src/reply.js");
 const state = _modelJs.state;
-const commentRenderer = function(comment, RCid, replied) {
+const commentRenderer = function(comment, RCid, replied = false) {
     // if (RCid) post.render(comment, RCid);
     // else post.render(comment);
-    _commentViewJsDefault.default.render(comment, RCid, replied);
+    const current = replied;
+    _commentViewJsDefault.default.render(comment, RCid, replied, current);
 };
 // const initialCommentRenderer = function () {
 //   model.state.comments.forEach((comment) => {
@@ -616,7 +617,8 @@ const init = function() {
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
     _scoreUpdateJs.scoreInit(scoreHandler);
     _replyJs.reply(replyChecker);
-}; // init();
+};
+init();
 
 },{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEDha":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -761,12 +763,51 @@ exports.export = function(dest, destName, get) {
 },{}],"G8mbZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _configJs = require("../../../../Java Script/complete-javascript-course-master/18-forkify/starter/src/js/config.js");
 var _viewJs = require("./view.js");
 class CommentView extends _viewJs.View {
+    deleteEdit = `
+        <div class="delete-edit-container flex">
+          <div class="delete-container flex">
+            <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.167 12.448c0 .854.7 1.552 1.555 1.552h6.222c.856 0 1.556-.698 1.556-1.552V3.5H1.167v8.948Zm10.5-11.281H8.75L7.773 0h-3.88l-.976 1.167H0v1.166h11.667V1.167Z"
+                fill="#ED6368"
+              />
+            </svg>
+
+            <label for="#delete" class="delete">Delete</label>
+          </div>
+
+          <div class="edit-container flex">
+            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.479 2.872 11.08.474a1.75 1.75 0 0 0-2.327-.06L.879 8.287a1.75 1.75 0 0 0-.5 1.06l-.375 3.648a.875.875 0 0 0 .875.954h.078l3.65-.333c.399-.04.773-.216 1.058-.499l7.875-7.875a1.68 1.68 0 0 0-.061-2.371Zm-2.975 2.923L8.159 3.449 9.865 1.7l2.389 2.39-1.75 1.706Z"
+                fill="#5357B6"
+              />
+            </svg>
+
+            <label for="#edit" class="edit">Edit</label>
+          </div>
+        </div>
+  `;
+    reply = `
+      <div class="reply-container flex">
+        <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z"
+            fill="#5357B6"
+          />
+        </svg>
+
+        <label for="#reply" class="reply">Reply</label>
+    </div>
+    
+  `;
     repliedContainer;
     /////////////////////////////////////////////////////             MARKUP GENERATOR
     ////////////////////////////////
-    _generateMarkup(replied, rcId) {
+    _generateMarkup(replied, byCurret) {
         // Setting the apropriate parent element
         if (!replied) this._parentElement = document.querySelector(".comment-card-container");
         else this._parentElement = document.querySelector(".replied-container");
@@ -814,17 +855,7 @@ class CommentView extends _viewJs.View {
 
       <!-- //////////////////////////////////////////////////////               REPLY PART -->
       <!-- ////////////////////////////////////////////////////// -->
-
-      <div class="reply-container flex">
-        <svg width="14" height="13" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M.227 4.316 5.04.16a.657.657 0 0 1 1.085.497v2.189c4.392.05 7.875.93 7.875 5.093 0 1.68-1.082 3.344-2.279 4.214-.373.272-.905-.07-.767-.51 1.24-3.964-.588-5.017-4.829-5.078v2.404c0 .566-.664.86-1.085.496L.227 5.31a.657.657 0 0 1 0-.993Z"
-            fill="#5357B6"
-          />
-        </svg>
-
-        <label for="#reply" class="reply">Reply</label>
-      </div>
+      ${byCurret ? this.deleteEdit : this.reply}
     </div>
     `;
     }
@@ -849,7 +880,7 @@ class CommentView extends _viewJs.View {
 const commentView = new CommentView();
 exports.default = commentView;
 
-},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ai2uB":[function(require,module,exports) {
+},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../../../../Java Script/complete-javascript-course-master/18-forkify/starter/src/js/config.js":"64eb0"}],"ai2uB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "View", ()=>View
@@ -857,14 +888,22 @@ parcelHelpers.export(exports, "View", ()=>View
 class View {
     _data;
     _parentElement;
-    render(data, parentElId, replies = false) {
+    render(data, parentElId, replies = false, byCurret) {
         this._data = data;
         // generating the markup
-        const markup = this._generateMarkup(replies);
+        const markup = this._generateMarkup(replies, byCurret);
         // This will allow us to OVERIDE any parent setting made before rendering
         if (parentElId) this.parentSet(parentElId);
         // RENDERING the replied markup to the dom
         this._parentElement.insertAdjacentHTML("beforeend", markup);
+        if (byCurret) {
+            const thisComment = document.getElementById(this._data.id);
+            const deleteEditConta = thisComment.querySelector(".delete-edit-container");
+            setTimeout(()=>{
+                deleteEditConta.remove();
+                thisComment.insertAdjacentHTML("beforeend", this.reply);
+            }, 30000);
+        }
         if (this._data.replies && this._data.replies.length >= 1) {
             this.repliedContainerSetter(this._data.id + "RC");
             // RENDERING the replied container
@@ -882,6 +921,28 @@ class View {
         this._parentElement = document.getElementById(id);
     }
 }
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"64eb0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "API_URL", ()=>API_URL
+);
+parcelHelpers.export(exports, "API_KEY", ()=>API_KEY
+);
+parcelHelpers.export(exports, "TIMEOUT_SECONDS", ()=>TIMEOUT_SECONDS
+);
+parcelHelpers.export(exports, "API_SEARCH_URL_EXTENSION", ()=>API_SEARCH_URL_EXTENSION
+);
+parcelHelpers.export(exports, "RESULTS_PER_PAGE", ()=>RESULTS_PER_PAGE
+);
+parcelHelpers.export(exports, "CLOSE_WINDOW_SEC", ()=>CLOSE_WINDOW_SEC
+);
+const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes'; // upercase indicatse that a varriable that should not change forever
+const API_KEY = '7cbf8f3d-b280-4f29-b23e-816c085e91b6';
+const TIMEOUT_SECONDS = 10;
+const API_SEARCH_URL_EXTENSION = '?search=';
+const RESULTS_PER_PAGE = 10;
+const CLOSE_WINDOW_SEC = 2.5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k8aWd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

@@ -6,11 +6,11 @@ import { reply } from "./src/reply.js";
 
 const state = model.state;
 
-const commentRenderer = function (comment, RCid, replied) {
+const commentRenderer = function (comment, RCid, replied = false) {
   // if (RCid) post.render(comment, RCid);
   // else post.render(comment);
-
-  post.render(comment, RCid, replied);
+  const current = replied;
+  post.render(comment, RCid, replied, current);
 };
 
 // const initialCommentRenderer = function () {
@@ -126,4 +126,4 @@ const init = function () {
   reply(replyChecker);
 };
 
-// init();
+init();
