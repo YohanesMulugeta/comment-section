@@ -591,7 +591,7 @@ const commentRenderer = function(comment, RCid, replied) {
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
 };
 // ============================================================= SCORE HANDLER ======================================
-const scoreHandler = function(currentScore, id, add) {
+const scoreHandler = function(id, add) {
     const score = _modelJs.scoreUpdate(id, add);
     return score;
 };
@@ -616,8 +616,7 @@ const init = function() {
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
     _scoreUpdateJs.scoreInit(scoreHandler);
     _replyJs.reply(replyChecker);
-};
-init();
+}; // init();
 
 },{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEDha":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -695,21 +694,25 @@ const state = {
     ]
 };
 const scoreUpdate = function(id, add = true) {
+    const parentIndex = state.comments.findIndex((el)=>el.id === parseInt(id)
+    );
     if (+id) {
         // console.log(add);
-        if (add) state.comments[id - 1].score++;
-        else state.comments[id - 1].score--;
+        if (add) state.comments[parentIndex].score++;
+        else state.comments[parentIndex].score--;
         // persisting the updated state
         persistState();
-        return state.comments[id - 1].score;
+        return state.comments[parentIndex].score;
     }
-    const parentId = parseInt(id);
-    const extension = +id.slice(-1);
-    if (add) state.comments[parentId - 1].replies[extension - 1].score++;
-    else state.comments[parentId - 1].replies[extension - 1].score--;
+    // const parentId = state.comments[parentIndex].id;
+    const repliesIndex = state.comments[parentIndex].replies.findIndex((el)=>el.id === id
+    );
+    // console.log(repliesIndex, id);
+    if (add) state.comments[parentIndex].replies[repliesIndex].score++;
+    else state.comments[parentIndex].replies[repliesIndex].score--;
     // persisting the updated state
     persistState();
-    return state.comments[parentId - 1].replies[extension - 1].score;
+    return state.comments[parentIndex].replies[repliesIndex].score;
 };
 // ====================================== LOCAL-STORAGE persist ======================================
 const persistState = function() {
@@ -980,7 +983,7 @@ const scoreUpdate = function(handler) {
         const currentScore = +target.closest(".score-container").textContent.trim();
         //   if (target.closest(".plus")) console.log(currentScore + 1);
         const id = target.closest(".comment-card").id;
-        const newScore = handler(currentScore, id, target.closest(".plus") ? true : false);
+        const newScore = handler(id, target.closest(".plus") ? true : false);
         document.getElementById(id).querySelector(".score").textContent = newScore;
     // console.log()
     });

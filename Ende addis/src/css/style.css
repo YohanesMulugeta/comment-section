@@ -54,12 +54,15 @@
 }
 
 .reply-container:hover,
-.reply-container:active
-/*, .edit-container:hover,
+.reply-container:active {
+  padding: 0rem 0.8rem;
+  background-color: hsl(223, 19%, 93%);
+}
+.edit-container:hover,
 .edit-container:active,
 .delete-container:hover,
-.delete-container:active */ {
-  padding: 0rem 0.8rem;
+.delete-container:active {
+  padding: 0.4rem 0.8rem;
   background-color: hsl(223, 19%, 93%);
 }
 

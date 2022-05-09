@@ -9,11 +9,7 @@ const scoreUpdate = function (handler) {
     //   if (target.closest(".plus")) console.log(currentScore + 1);
     const id = target.closest(".comment-card").id;
 
-    const newScore = handler(
-      currentScore,
-      id,
-      target.closest(".plus") ? true : false
-    );
+    const newScore = handler(id, target.closest(".plus") ? true : false);
 
     document.getElementById(id).querySelector(".score").textContent = newScore;
     // console.log()

@@ -45,6 +45,11 @@
   padding: 0 .8rem;
 }
 
+.edit-container:hover, .edit-container:active, .delete-container:hover, .delete-container:active {
+  background-color: #eaecf1;
+  padding: .4rem .8rem;
+}
+
 .reply-container > :first-child, .replied-container > :first-child, .edit-container > :first-child, .edit-container > :first-child, .delete-container > :first-child, .delete-container > :first-child {
   transition: all .3s;
 }

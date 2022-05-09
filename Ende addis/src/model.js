@@ -75,25 +75,29 @@ export const state = {
 /* ==================================================== score Updater ============================== */
 
 export const scoreUpdate = function (id, add = true) {
+  const parentIndex = state.comments.findIndex((el) => el.id === parseInt(id));
   if (+id) {
     // console.log(add);
-    if (add) state.comments[id - 1].score++;
-    else state.comments[id - 1].score--;
+    if (add) state.comments[parentIndex].score++;
+    else state.comments[parentIndex].score--;
 
     // persisting the updated state
     persistState();
 
-    return state.comments[id - 1].score;
+    return state.comments[parentIndex].score;
   }
-  const parentId = parseInt(id);
-  const extension = +id.slice(-1);
+  // const parentId = state.comments[parentIndex].id;
+  const repliesIndex = state.comments[parentIndex].replies.findIndex(
+    (el) => el.id === id
+  );
 
-  if (add) state.comments[parentId - 1].replies[extension - 1].score++;
-  else state.comments[parentId - 1].replies[extension - 1].score--;
+  // console.log(repliesIndex, id);
+  if (add) state.comments[parentIndex].replies[repliesIndex].score++;
+  else state.comments[parentIndex].replies[repliesIndex].score--;
 
   // persisting the updated state
   persistState();
-  return state.comments[parentId - 1].replies[extension - 1].score;
+  return state.comments[parentIndex].replies[repliesIndex].score;
 };
 
 // ====================================== LOCAL-STORAGE persist ======================================

@@ -86,7 +86,7 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
 };
 
 // ============================================================= SCORE HANDLER ======================================
-const scoreHandler = function (currentScore, id, add) {
+const scoreHandler = function (id, add) {
   const score = model.scoreUpdate(id, add);
 
   return score;
@@ -126,4 +126,4 @@ const init = function () {
   reply(replyChecker);
 };
 
-init();
+// init();
