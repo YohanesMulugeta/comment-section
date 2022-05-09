@@ -157,7 +157,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.comment {
+.comment-container {
   grid-column: span 2;
 }
 
@@ -320,6 +320,35 @@
   visibility: hidden;
 }
 
+/* ============================= */
+/*         Update-section        */
+/* ============================= */
+.comment-update {
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  /* padding: 2.4rem 1.6rem; */
+  /* align-items:; */
+}
+
+.btn-update {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  width: 8.2rem;
+  border-radius: 0.5rem;
+  background-color: hsl(238, 40%, 52%);
+  color: hsl(0, 0%, 100%);
+
+  cursor: pointer;
+  align-self: flex-end;
+
+  transition: all 0.3s;
+}
+
+.btn-update:hover {
+  transform: scale(1.05);
+}
 /* .active{
   opacity: 1;
   pointer-events: auto;

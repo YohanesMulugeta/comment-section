@@ -533,12 +533,13 @@ var _commentViewJsDefault = parcelHelpers.interopDefault(_commentViewJs);
 var _commentFieldJs = require("./src/commentField.js");
 var _scoreUpdateJs = require("./src/scoreUpdate.js");
 var _replyJs = require("./src/reply.js");
+// import { editor } from "./src/edit.js";
 const state = _modelJs.state;
-const commentRenderer = function(comment, RCid, replied = false) {
+const commentRenderer = function({ comment , RCid , replied =false , current  }) {
     // if (RCid) post.render(comment, RCid);
     // else post.render(comment);
-    const current = replied;
-    _commentViewJsDefault.default.render(comment, RCid, replied, current);
+    const byCurrent = current ? current : replied;
+    _commentViewJsDefault.default.render(comment, RCid, replied, byCurrent);
 };
 // const initialCommentRenderer = function () {
 //   model.state.comments.forEach((comment) => {
@@ -559,9 +560,9 @@ const commentRenderer = function(comment, RCid, replied = false) {
         const parentIndex = _modelJs.state.comments.findIndex((el)=>el.id === parentCommentId
         );
         const commentReplyTo = _modelJs.state.comments[parentIndex];
-        console.log(parentIndex);
         let extensionId;
         if (!+idReplyingTo) {
+            console.log(parentIndex, idReplyingTo);
             extensionId = +idReplyingTo.split("-")[1];
             const index = commentReplyTo.replies.findIndex((el)=>+el.id.split("-")[1] === extensionId
             );
@@ -582,12 +583,21 @@ const commentRenderer = function(comment, RCid, replied = false) {
         _modelJs.state.comments[parentIndex].replies.push(comment);
         // console.log(model.state.comments[parentCommentId - 1]);
         // console.log(idReplyingTo);
-        commentRenderer(comment, parentCommentId + "RC", true);
+        const argumentsObj = {
+            RCid: parentCommentId + "RC",
+            replied: true,
+            comment: comment
+        };
+        commentRenderer(argumentsObj);
     // console.log(parentCommentId + "rc");
     } else {
         comment.id = new Date().getTime();
+        // console.log(comment.id)
         _modelJs.state.comments.push(comment);
-        commentRenderer(comment);
+        commentRenderer({
+            comment: comment,
+            current: true
+        });
     }
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
 };
@@ -617,8 +627,7 @@ const init = function() {
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
     _scoreUpdateJs.scoreInit(scoreHandler);
     _replyJs.reply(replyChecker);
-};
-init();
+}; // init();
 
 },{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEDha":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -824,10 +833,12 @@ class CommentView extends _viewJs.View {
         <p class="comment-time">${this._data.createdAt}</p>
       </div>
 
+      <div class="comment-container">
       <p class="comment">
 
         ${replied ? "<span class='replying-to'>@" + this._data.replyingTo + "</span> " + this._data.content : this._data.content}
       </p>
+      </div>
 
       <!-- //////////////////////////////////////////////////////////         comment SCORE -->
 

@@ -68,6 +68,7 @@ class CommentView extends View {
         <p class="comment-time">${this._data.createdAt}</p>
       </div>
 
+      <div class="comment-container">
       <p class="comment">
 
         ${
@@ -79,6 +80,7 @@ class CommentView extends View {
             : this._data.content
         }
       </p>
+      </div>
 
       <!-- //////////////////////////////////////////////////////////         comment SCORE -->
 

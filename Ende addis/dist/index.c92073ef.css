@@ -120,7 +120,7 @@
   box-shadow: 0 0 5px #0000001a;
 }
 
-.comment {
+.comment-container {
   grid-column: span 2;
 }
 
@@ -250,6 +250,29 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.comment-update {
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.btn-update {
+  text-align: center;
+  text-transform: uppercase;
+  width: 8.2rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: #5457b6;
+  border-radius: .5rem;
+  align-self: flex-end;
+  padding: .8rem 1.6rem;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.btn-update:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=index.c92073ef.css.map */

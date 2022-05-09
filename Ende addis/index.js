@@ -3,14 +3,15 @@ import post from "./src/commentView.js";
 import { field } from "./src/commentField.js";
 import { scoreInit } from "./src/scoreUpdate.js";
 import { reply } from "./src/reply.js";
+// import { editor } from "./src/edit.js";
 
 const state = model.state;
 
-const commentRenderer = function (comment, RCid, replied = false) {
+const commentRenderer = function ({ comment, RCid, replied = false, current }) {
   // if (RCid) post.render(comment, RCid);
   // else post.render(comment);
-  const current = replied;
-  post.render(comment, RCid, replied, current);
+  const byCurrent = current ? current : replied;
+  post.render(comment, RCid, replied, byCurrent);
 };
 
 // const initialCommentRenderer = function () {
@@ -40,10 +41,10 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
 
     const commentReplyTo = model.state.comments[parentIndex];
 
-    console.log(parentIndex);
     let extensionId;
 
     if (!+idReplyingTo) {
+      console.log(parentIndex, idReplyingTo);
       extensionId = +idReplyingTo.split("-")[1];
 
       const index = commentReplyTo.replies.findIndex(
@@ -74,12 +75,18 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     // console.log(model.state.comments[parentCommentId - 1]);
 
     // console.log(idReplyingTo);
-    commentRenderer(comment, parentCommentId + "RC", true);
+    const argumentsObj = {
+      RCid: parentCommentId + "RC",
+      replied: true,
+      comment: comment,
+    };
+    commentRenderer(argumentsObj);
     // console.log(parentCommentId + "rc");
   } else {
     comment.id = new Date().getTime();
+    // console.log(comment.id)
     model.state.comments.push(comment);
-    commentRenderer(comment);
+    commentRenderer({ comment: comment, current: true });
   }
 
   field.render(model.state.currentUser, null, sendHandler);
@@ -126,4 +133,4 @@ const init = function () {
   reply(replyChecker);
 };
 
-init();
+// init();
