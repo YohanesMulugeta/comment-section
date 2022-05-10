@@ -4,6 +4,7 @@ import { field } from "./src/commentField.js";
 import { scoreInit } from "./src/scoreUpdate.js";
 import { reply } from "./src/reply.js";
 import { edit } from "./src/edit.js";
+import { deleteComment } from "./src/deleteComment.js";
 
 const state = model.state;
 
@@ -14,12 +15,6 @@ const commentRenderer = function ({ comment, RCid, replied = false, current }) {
   post.render(comment, RCid, replied, byCurrent);
 };
 
-// const initialCommentRenderer = function () {
-//   model.state.comments.forEach((comment) => {
-//     commentRenderer(comment);
-//   });
-// };
-
 /*======================================================== SEND-HANDLER =============================================*/
 
 const sendHandler = function (content, idReplyingTo, inReplied) {
@@ -28,32 +23,14 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     createdAt: new Date().getDay(),
     score: 0,
     user: model.state.currentUser,
-    replies: [],
   };
 
   if (idReplyingTo) {
     const parentCommentId = parseInt(idReplyingTo);
 
-    // finding the index of the parent comment inside the state.comments array
-    const parentIndex = model.indexFinder(
-      model.state.comments,
-      parentCommentId
-    );
-
     const commentReplyTo = model.dataProvide(parentCommentId);
-    // model.state.comments[parentIndex];
-
-    // let extensionId;
 
     if (!+idReplyingTo) {
-      // console.log(parentIndex, idReplyingTo);
-      // extensionId = +idReplyingTo.split("-")[1];
-
-      // const index = model.indexFinder(commentReplyTo.replies, idReplyingTo);
-      // .findIndex(
-      //   (el) => +el.id.split("-")[1] === extensionId
-      // );
-
       const replyingTo = model.dataProvide(idReplyingTo).user.username;
 
       // console.log(replyingTo);
@@ -74,12 +51,8 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     // the id of the  new replied comment
     comment.id = parentCommentId + "-" + newExtensionId;
 
-    // model.state.comments[parentIndex].replies.push(comment);
-
     model.dataPush(comment, comment.id);
-    // console.log(model.state.comments[parentCommentId - 1]);
 
-    // console.log(idReplyingTo);
     const argumentsObj = {
       RCid: parentCommentId + "RC",
       replied: true,
@@ -89,6 +62,7 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     // console.log(parentCommentId + "rc");
   } else {
     comment.id = new Date().getTime();
+    comment.replies = [];
     // console.log(comment.id)
     // model.state.comments.push(comment);
 
@@ -112,11 +86,9 @@ const replyChecker = function (isRepliedContainer, commentId) {
 
   if (!isRepliedContainer) {
     // checking whether the comment already have a container when clicked
+    const alreadyHaveReplies = model.dataProvide(commentId).replies.length > 0;
 
-    const index = model.state.comments.findIndex((el) => el.id === +commentId);
-    const alreadyHaveReplies = model.state.comments[index].replies.length > 0;
-
-    console.log(alreadyHaveReplies);
+    // console.log(alreadyHaveReplies);
     // commentId because the field will create the replies  container and render it with the id of commentID + RC
     field.render(
       model.state.currentUser,
@@ -154,6 +126,11 @@ const editHandler = function (id, content) {
   return model.contentUpdate(id, content);
 };
 
+/*================================================ DELETE-handler =========================================*/
+const deleteHandler = function (id) {
+  model.deleteComment(id);
+};
+
 const init = function () {
   // initialCommentRenderer();
   post.init(model.state.comments);
@@ -161,6 +138,7 @@ const init = function () {
   scoreInit(scoreHandler);
   reply(replyChecker);
   edit.init(editHandler);
+  deleteComment(deleteHandler);
 };
 
 init();

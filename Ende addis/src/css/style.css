@@ -36,7 +36,7 @@
 .edit-container {
   width: 8.4rem;
   font-weight: 600;
-  padding: 0.4rem 0.8rem;
+  padding: 0.8rem 0.8rem;
   border-radius: 1rem;
 
   justify-content: space-between;
@@ -46,7 +46,9 @@
   transition: all 0.5s;
 }
 
-.replied-container {
+.comment-btn-container {
+  /* display: flex; */
+  /* background-color: #000; */
   justify-self: end;
 }
 
@@ -57,14 +59,15 @@
 
 .reply-container:hover,
 .reply-container:active {
-  padding: 0rem 0.8rem;
+  /* padding-left: 0.8rem;
+  padding-right: 0.8rem; */
   background-color: hsl(223, 19%, 93%);
 }
 .edit-container:hover,
 .edit-container:active,
 .delete-container:hover,
 .delete-container:active {
-  padding: 0.4rem 0.8rem;
+  /* padding: 0.4rem 0.8rem; */
   background-color: hsl(223, 19%, 93%);
 }
 

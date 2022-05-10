@@ -69,17 +69,17 @@ class CommentView extends View {
       </div>
 
       <div class="comment-container">
-      <p class="comment">
+        <p class="comment">
 
-        ${
-          replied
-            ? "<span class='replying-to'>@" +
-              this._data.replyingTo +
-              "</span> " +
-              this._data.content
-            : this._data.content
-        }
-      </p>
+          ${
+            replied
+              ? "<span class='replying-to'>@" +
+                this._data.replyingTo +
+                "</span> " +
+                this._data.content
+              : this._data.content
+          }
+        </p>
       </div>
 
       <!-- //////////////////////////////////////////////////////////         comment SCORE -->
@@ -108,7 +108,9 @@ class CommentView extends View {
 
       <!-- //////////////////////////////////////////////////////               REPLY PART -->
       <!-- ////////////////////////////////////////////////////// -->
-      ${byCurret ? this.deleteEdit : this.reply}
+      <div class ="comment-btn-container">
+         ${byCurret ? this.deleteEdit : this.reply}
+      </div>
     </div>
     `;
   }

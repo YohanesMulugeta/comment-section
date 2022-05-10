@@ -1,4 +1,4 @@
-@media (min-width: 37em) {
+@media (min-width: 39em) {
   .grid--2-cols {
     grid-template-columns: 1fr 8fr 1fr;
     column-gap: 2rem;
@@ -24,7 +24,7 @@
     /* justify-self: end; */
   }
 
-  .delete-edit-container {
+  .comment-btn-container {
     grid-row: 1;
   }
 

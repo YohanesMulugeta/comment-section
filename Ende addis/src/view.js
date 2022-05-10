@@ -21,8 +21,10 @@ export class View {
 
       setTimeout(() => {
         deleteEditConta.remove();
-        thisComment.insertAdjacentHTML("beforeend", this.reply);
-      }, 30000);
+        thisComment
+          .querySelector(".comment-btn-container")
+          .insertAdjacentHTML("beforeend", this.reply);
+      }, 300000);
     }
 
     if (this._data.replies && this._data.replies.length >= 1) {

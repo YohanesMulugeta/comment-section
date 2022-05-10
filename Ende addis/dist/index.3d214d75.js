@@ -534,6 +534,7 @@ var _commentFieldJs = require("./src/commentField.js");
 var _scoreUpdateJs = require("./src/scoreUpdate.js");
 var _replyJs = require("./src/reply.js");
 var _editJs = require("./src/edit.js");
+var _deleteCommentJs = require("./src/deleteComment.js");
 const state = _modelJs.state;
 const commentRenderer = function({ comment , RCid , replied =false , current  }) {
     // if (RCid) post.render(comment, RCid);
@@ -541,33 +542,17 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
     const byCurrent = current ? current : replied;
     _commentViewJsDefault.default.render(comment, RCid, replied, byCurrent);
 };
-// const initialCommentRenderer = function () {
-//   model.state.comments.forEach((comment) => {
-//     commentRenderer(comment);
-//   });
-// };
 /*======================================================== SEND-HANDLER =============================================*/ const sendHandler = function(content, idReplyingTo, inReplied) {
     const comment = {
         content: content,
         createdAt: new Date().getDay(),
         score: 0,
-        user: _modelJs.state.currentUser,
-        replies: []
+        user: _modelJs.state.currentUser
     };
     if (idReplyingTo) {
         const parentCommentId = parseInt(idReplyingTo);
-        // finding the index of the parent comment inside the state.comments array
-        const parentIndex = _modelJs.indexFinder(_modelJs.state.comments, parentCommentId);
         const commentReplyTo = _modelJs.dataProvide(parentCommentId);
-        // model.state.comments[parentIndex];
-        // let extensionId;
         if (!+idReplyingTo) {
-            // console.log(parentIndex, idReplyingTo);
-            // extensionId = +idReplyingTo.split("-")[1];
-            // const index = model.indexFinder(commentReplyTo.replies, idReplyingTo);
-            // .findIndex(
-            //   (el) => +el.id.split("-")[1] === extensionId
-            // );
             const replyingTo = _modelJs.dataProvide(idReplyingTo).user.username;
             // console.log(replyingTo);
             comment.replyingTo = replyingTo;
@@ -582,10 +567,7 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
         const newExtensionId = new Date().getTime();
         // the id of the  new replied comment
         comment.id = parentCommentId + "-" + newExtensionId;
-        // model.state.comments[parentIndex].replies.push(comment);
         _modelJs.dataPush(comment, comment.id);
-        // console.log(model.state.comments[parentCommentId - 1]);
-        // console.log(idReplyingTo);
         const argumentsObj = {
             RCid: parentCommentId + "RC",
             replied: true,
@@ -595,6 +577,7 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
     // console.log(parentCommentId + "rc");
     } else {
         comment.id = new Date().getTime();
+        comment.replies = [];
         // console.log(comment.id)
         // model.state.comments.push(comment);
         _modelJs.dataPush(comment, comment.id);
@@ -614,10 +597,8 @@ const scoreHandler = function(id, add) {
     const rcIdcId = parseInt(commentId) + "RCto" + commentId;
     if (!isRepliedContainer) {
         // checking whether the comment already have a container when clicked
-        const index = _modelJs.state.comments.findIndex((el)=>el.id === +commentId
-        );
-        const alreadyHaveReplies = _modelJs.state.comments[index].replies.length > 0;
-        console.log(alreadyHaveReplies);
+        const alreadyHaveReplies = _modelJs.dataProvide(commentId).replies.length > 0;
+        // console.log(alreadyHaveReplies);
         // commentId because the field will create the replies  container and render it with the id of commentID + RC
         _commentFieldJs.field.render(_modelJs.state.currentUser, rcIdcId, sendHandler, alreadyHaveReplies);
         return alreadyHaveReplies;
@@ -641,6 +622,9 @@ const scoreHandler = function(id, add) {
     _commentFieldJs.field.render(_modelJs.state.currentUser, null, sendHandler);
     return _modelJs.contentUpdate(id, content);
 };
+/*================================================ DELETE-handler =========================================*/ const deleteHandler = function(id) {
+    _modelJs.deleteComment(id);
+};
 const init = function() {
     // initialCommentRenderer();
     _commentViewJsDefault.default.init(_modelJs.state.comments);
@@ -648,10 +632,11 @@ const init = function() {
     _scoreUpdateJs.scoreInit(scoreHandler);
     _replyJs.reply(replyChecker);
     _editJs.edit.init(editHandler);
+    _deleteCommentJs.deleteComment(deleteHandler);
 };
 init();
 
-},{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./src/edit.js":"gHqEs"}],"dEDha":[function(require,module,exports) {
+},{"./src/model.js":"dEDha","./src/commentView.js":"G8mbZ","./src/commentField.js":"k8aWd","./src/scoreUpdate.js":"hN0ub","./src/reply.js":"4l7Xb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./src/edit.js":"gHqEs","./src/deleteComment.js":"ae7qP"}],"dEDha":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state
@@ -665,6 +650,8 @@ parcelHelpers.export(exports, "dataProvide", ()=>dataProvide
 parcelHelpers.export(exports, "contentUpdate", ()=>contentUpdate
 );
 parcelHelpers.export(exports, "dataPush", ()=>dataPush
+);
+parcelHelpers.export(exports, "deleteComment", ()=>deleteComment
 );
 const state = {
     currentUser: {
@@ -801,10 +788,23 @@ const dataPush = function(data, id) {
     // REPLIED data
     const idP = parseInt(id);
     const indP = indexFinder(state.comments, idP);
-    console.log(indP);
+    // console.log(indP);
     state.comments[indP].replies.push(data);
     persistState();
     return state.comments[indP].replies[-1];
+};
+const deleteComment = function(id) {
+    if (+id) {
+        state.comments.splice(indexFinder(state.comments, id));
+        persistState();
+    }
+    if (!+id) {
+        const idP = parseInt(id);
+        const indP = indexFinder(state.comments, idP);
+        const indR = indexFinder(state.comments[indP].replies, id);
+        console.log(state.comments[indP].replies.splice(indR));
+        persistState();
+    }
 };
 /*========================================================  INITIALIZER function ==================================*/ // localStorage.clear("state");
 const init = function() {
@@ -911,10 +911,10 @@ class CommentView extends _viewJs.View {
       </div>
 
       <div class="comment-container">
-      <p class="comment">
+        <p class="comment">
 
-        ${replied ? "<span class='replying-to'>@" + this._data.replyingTo + "</span> " + this._data.content : this._data.content}
-      </p>
+          ${replied ? "<span class='replying-to'>@" + this._data.replyingTo + "</span> " + this._data.content : this._data.content}
+        </p>
       </div>
 
       <!-- //////////////////////////////////////////////////////////         comment SCORE -->
@@ -943,7 +943,9 @@ class CommentView extends _viewJs.View {
 
       <!-- //////////////////////////////////////////////////////               REPLY PART -->
       <!-- ////////////////////////////////////////////////////// -->
-      ${byCurret ? this.deleteEdit : this.reply}
+      <div class ="comment-btn-container">
+         ${byCurret ? this.deleteEdit : this.reply}
+      </div>
     </div>
     `;
     }
@@ -989,8 +991,8 @@ class View {
             const deleteEditConta = thisComment.querySelector(".delete-edit-container");
             setTimeout(()=>{
                 deleteEditConta.remove();
-                thisComment.insertAdjacentHTML("beforeend", this.reply);
-            }, 30000);
+                thisComment.querySelector(".comment-btn-container").insertAdjacentHTML("beforeend", this.reply);
+            }, 300000);
         }
         if (this._data.replies && this._data.replies.length >= 1) {
             this.repliedContainerSetter(this._data.id + "RC");
@@ -1154,10 +1156,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "reply", ()=>reply
 );
-var _viewJs = require("./view.js");
-var _commentFieldJs = require("./commentField.js");
-var _commentViewJs = require("./commentView.js");
-var _commentViewJsDefault = parcelHelpers.interopDefault(_commentViewJs);
 const reply = function(handler) {
     const replyHandler = (e)=>{
         // console.log("cl");
@@ -1172,7 +1170,7 @@ const reply = function(handler) {
     window.addEventListener("click", replyHandler);
 };
 
-},{"./view.js":"ai2uB","./commentField.js":"k8aWd","./commentView.js":"G8mbZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gHqEs":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gHqEs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "edit", ()=>edit
@@ -1301,6 +1299,7 @@ class Edit extends _viewJs.View {
             this.updateField.closest(".comment-update").remove();
             // setting THE COMMENT TO ITS PREVIOUS VALUE
             this.toBeEditedcomment.insertAdjacentHTML("beforeend", this._generateMarkup());
+            this._parentElement.querySelector(".delete-edit-container").classList.remove("hidden");
         }
     }
     _generateMarkup() {
@@ -1329,7 +1328,7 @@ class Edit extends _viewJs.View {
             this.toBeEditedId = target.closest(".comment-card").dataset.id;
             // getting the toBeEdited comment element
             this.toBeEditedcomment = document.getElementById(this.toBeEditedId).querySelector(".comment");
-            target.closest(".delete-edit-container").remove();
+            target.closest(".delete-edit-container").classList.add("hidden");
             // geting the current content of the comment
             this._data = handler(this.toBeEditedId);
             this.render();
@@ -1351,6 +1350,61 @@ class Edit extends _viewJs.View {
 }
 const edit = new Edit();
 
-},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
+},{"./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ae7qP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "deleteComment", ()=>deleteComment
+);
+const rootC = document.body;
+let toBeDeletedCommentId;
+const popupConta = `
+        <div class="delete-popup">
+            <div class="overlay"></div>
+            <div class="popup-card flex">
+            <p class="popup-header">Delete comment</p>
+            <p>
+                Are you sure you want to delete this comment? This will remove the comment
+                and it can't be undone.
+            </p>
+            <footer class="popup-footer flex">
+                <button class="btn-cancel btn">no, cancel</button>
+                <button class="btn-yes btn">yes, delete</button>
+            </footer>
+            </div>
+        </div>
+`;
+const deleteComment = function(deleteHandler) {
+    const overlayHandle = (e)=>{
+        //   DELLETING
+        if (e.target.classList.contains("btn-yes")) {
+            deleteHandler(toBeDeletedCommentId);
+            document.getElementById(toBeDeletedCommentId).remove();
+            document.querySelector(".delete-popup").remove();
+        }
+        // CANCELLING
+        if (e.target.classList.contains("btn-cancel") || e.target.classList.contains("overlay")) {
+            //   document.getElementById(commentId).remove();
+            console.log("click");
+            document.querySelector(".delete-popup").remove();
+        }
+    };
+    const overlayPass = (e)=>{
+        overlayHandle(e, this);
+    };
+    const handleDe = function(e) {
+        if (!e.target.closest(".delete-container")) return;
+        toBeDeletedCommentId = e.target.closest(".comment-card").dataset.id;
+        // RENDERING the popup
+        rootC.insertAdjacentHTML("beforeend", popupConta);
+        // REMOVING event listner if any
+        rootC.removeEventListener("click", overlayPass);
+        // ATTACHING eventListner
+        rootC.addEventListener("click", overlayPass);
+    // deleteHandler(toBeDeletedCommentId.dataset.id);
+    };
+    window.addEventListener("click", handleDe);
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aPJuQ","bB7Pu"], "bB7Pu", "parcelRequirebaf5")
 
 //# sourceMappingURL=index.3d214d75.js.map

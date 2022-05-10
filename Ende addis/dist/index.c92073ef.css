@@ -30,12 +30,12 @@
   border-radius: 1rem;
   justify-content: space-between;
   align-items: center;
-  padding: .4rem .8rem;
+  padding: .8rem;
   font-weight: 600;
   transition: all .5s;
 }
 
-.replied-container {
+.comment-btn-container {
   justify-self: end;
 }
 
@@ -43,14 +43,8 @@
   color: #5457b6;
 }
 
-.reply-container:hover, .reply-container:active {
+.reply-container:hover, .reply-container:active, .edit-container:hover, .edit-container:active, .delete-container:hover, .delete-container:active {
   background-color: #eaecf1;
-  padding: 0 .8rem;
-}
-
-.edit-container:hover, .edit-container:active, .delete-container:hover, .delete-container:active {
-  background-color: #eaecf1;
-  padding: .4rem .8rem;
 }
 
 .reply-container > :first-child, .replied-container > :first-child, .edit-container > :first-child, .edit-container > :first-child, .delete-container > :first-child, .delete-container > :first-child {

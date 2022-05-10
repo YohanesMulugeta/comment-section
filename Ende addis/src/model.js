@@ -168,11 +168,28 @@ export const dataPush = function (data, id) {
   const idP = parseInt(id);
   const indP = indexFinder(state.comments, idP);
 
-  console.log(indP);
+  // console.log(indP);
   state.comments[indP].replies.push(data);
 
   persistState();
   return state.comments[indP].replies[-1];
+};
+
+/*======================================================== DELETE COMMENT ========================================*/
+export const deleteComment = function (id) {
+  if (+id) {
+    state.comments.splice(indexFinder(state.comments, id));
+    persistState();
+  }
+
+  if (!+id) {
+    const idP = parseInt(id);
+    const indP = indexFinder(state.comments, idP);
+    const indR = indexFinder(state.comments[indP].replies, id);
+
+    console.log(state.comments[indP].replies.splice(indR));
+    persistState();
+  }
 };
 /*========================================================  INITIALIZER function ==================================*/
 

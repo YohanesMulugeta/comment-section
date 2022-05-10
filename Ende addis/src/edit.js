@@ -154,6 +154,10 @@ class Edit extends View {
         "beforeend",
         this._generateMarkup()
       );
+
+      this._parentElement
+        .querySelector(".delete-edit-container")
+        .classList.remove("hidden");
     }
   }
 
@@ -207,7 +211,7 @@ class Edit extends View {
         .getElementById(this.toBeEditedId)
         .querySelector(".comment");
 
-      target.closest(".delete-edit-container").remove();
+      target.closest(".delete-edit-container").classList.add("hidden");
 
       // geting the current content of the comment
       this._data = handler(this.toBeEditedId);
