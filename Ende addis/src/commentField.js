@@ -26,11 +26,18 @@ class CommentField extends View {
 
       document.getElementById(parseInt(parentElId)).after(rc);
 
+      // rc.scrollIntoView({ behavior: "smooth" });
+
       this.parentSet(parentElId);
     }
 
-    if (parentElId && haveReplies) this.parentSet(parentElId);
+    if (parentElId && haveReplies) {
+      this.parentSet(parentElId);
 
+      this._parentElement.lastElementChild.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
     // console.log(this._parentElement);
     this._data = data;
 
@@ -59,6 +66,9 @@ class CommentField extends View {
     // RENDERING the replied markup to the dom
     this._parentElement.insertAdjacentHTML("beforeend", markup);
     // console.log(document.getElementById(parentElId));
+
+    // document.querySelector(".section-comment-send");
+    // .scrollIntoView({ behavior: "smooth" });
 
     // calling the eventListner initializer with the event handler
     this.events(sendHandler, cId);

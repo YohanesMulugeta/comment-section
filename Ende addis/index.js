@@ -3,7 +3,7 @@ import post from "./src/commentView.js";
 import { field } from "./src/commentField.js";
 import { scoreInit } from "./src/scoreUpdate.js";
 import { reply } from "./src/reply.js";
-// import { editor } from "./src/edit.js";
+import { edit } from "./src/edit.js";
 
 const state = model.state;
 
@@ -100,10 +100,10 @@ const scoreHandler = function (id, add) {
 };
 
 /*=================================================== REPLY Handler ======================================== */
-const replyChecker = function (isRepliedContaier, commentId) {
+const replyChecker = function (isRepliedContainer, commentId) {
   const rcIdcId = parseInt(commentId) + "RCto" + commentId;
 
-  if (!isRepliedContaier) {
+  if (!isRepliedContainer) {
     // checking whether the comment already have a container when clicked
 
     const index = model.state.comments.findIndex((el) => el.id === +commentId);
@@ -125,12 +125,35 @@ const replyChecker = function (isRepliedContaier, commentId) {
   }
   // return false;
 };
+
+/*================================================= Edit handler ==========================================*/
+const editHandler = function (id, content) {
+  // console.log("clicked");
+  // const idP = parseInt(id);
+
+  const toBeEditedComment = model.dataProvide(id);
+  if (!content) {
+    if (!+id)
+      return {
+        content: toBeEditedComment.content,
+        replyingTo: toBeEditedComment.replyingTo,
+      };
+
+    return { content: toBeEditedComment.content };
+  }
+
+  field.render(model.state.currentUser, null, sendHandler);
+
+  return model.contentUpdate(id, content);
+};
+
 const init = function () {
   // initialCommentRenderer();
   post.init(model.state.comments);
   field.render(model.state.currentUser, null, sendHandler);
   scoreInit(scoreHandler);
   reply(replyChecker);
+  edit.init(editHandler);
 };
 
-// init();
+init();

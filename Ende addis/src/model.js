@@ -106,6 +106,49 @@ const persistState = function () {
   localStorage.setItem("state", JSON.stringify(state));
 };
 
+/*======================================================== Index finder =========================================*/
+
+const indexFinder = function (array, id) {
+  const index = array.findIndex((el) => el.id === id);
+  return index;
+};
+
+/*======================================================== Comment-provider ======================================*/
+export const dataProvide = function (id) {
+  const idP = parseInt(id);
+  const indP = indexFinder(state.comments, +idP);
+
+  //                                                              isInRPLIES
+  if (!+id) {
+    const indR = indexFinder(state.comments[indP].replies, id); // INDEX of repled
+    const data = state.comments[indP].replies[indR]; // DATA of replied
+
+    return data;
+  }
+
+  return state.comments[indP];
+};
+
+/*======================================================== comment-update ===========================================*/
+export const contentUpdate = function (id, content) {
+  const idP = parseInt(id);
+  const indP = indexFinder(state.comments, +idP);
+
+  //                                                              isInRPLIES
+  if (!+id) {
+    const indR = indexFinder(state.comments[indP].replies, id); // INDEX of repiled
+
+    state.comments[indP].replies[indR].content = content; // UPDATING the content
+
+    //                                                        ASURING CONTROLLED DATA MOVMENT
+    return state.comments[indP].replies[indR].content; // UPDATING the content
+  }
+
+  state.comments[indP].content = content;
+  //                                                        ASURING CONTROLLED DATA MOVMENT
+  return state.comments[indP].content;
+};
+
 /*========================================================  INITIALIZER function ==================================*/
 
 // localStorage.clear("state");
