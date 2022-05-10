@@ -72,6 +72,12 @@ export const state = {
   ],
 };
 
+// ====================================== LOCAL-STORAGE persist ======================================
+
+const persistState = function () {
+  localStorage.setItem("state", JSON.stringify(state));
+};
+
 /* ==================================================== score Updater ============================== */
 
 export const scoreUpdate = function (id, add = true) {
@@ -100,20 +106,14 @@ export const scoreUpdate = function (id, add = true) {
   return state.comments[parentIndex].replies[repliesIndex].score;
 };
 
-// ====================================== LOCAL-STORAGE persist ======================================
-
-const persistState = function () {
-  localStorage.setItem("state", JSON.stringify(state));
-};
-
 /*======================================================== Index finder =========================================*/
 
-const indexFinder = function (array, id) {
+export const indexFinder = function (array, id) {
   const index = array.findIndex((el) => el.id === id);
   return index;
 };
 
-/*======================================================== Comment-provider ======================================*/
+/*======================================================== Data-provider ======================================*/
 export const dataProvide = function (id) {
   const idP = parseInt(id);
   const indP = indexFinder(state.comments, +idP);
@@ -140,15 +140,40 @@ export const contentUpdate = function (id, content) {
 
     state.comments[indP].replies[indR].content = content; // UPDATING the content
 
+    persistState();
+
     //                                                        ASURING CONTROLLED DATA MOVMENT
     return state.comments[indP].replies[indR].content; // UPDATING the content
   }
 
   state.comments[indP].content = content;
+  persistState();
+
   //                                                        ASURING CONTROLLED DATA MOVMENT
   return state.comments[indP].content;
 };
 
+/*======================================================== DATA-PUSHER ============================================*/
+export const dataPush = function (data, id) {
+  // normal COMMENT
+
+  if (+id) {
+    state.comments.push(data);
+    persistState();
+
+    return state.comments[-1];
+  }
+
+  // REPLIED data
+  const idP = parseInt(id);
+  const indP = indexFinder(state.comments, idP);
+
+  console.log(indP);
+  state.comments[indP].replies.push(data);
+
+  persistState();
+  return state.comments[indP].replies[-1];
+};
 /*========================================================  INITIALIZER function ==================================*/
 
 // localStorage.clear("state");

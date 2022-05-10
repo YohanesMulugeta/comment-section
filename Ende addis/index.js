@@ -35,23 +35,26 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     const parentCommentId = parseInt(idReplyingTo);
 
     // finding the index of the parent comment inside the state.comments array
-    const parentIndex = model.state.comments.findIndex(
-      (el) => el.id === parentCommentId
+    const parentIndex = model.indexFinder(
+      model.state.comments,
+      parentCommentId
     );
 
-    const commentReplyTo = model.state.comments[parentIndex];
+    const commentReplyTo = model.dataProvide(parentCommentId);
+    // model.state.comments[parentIndex];
 
-    let extensionId;
+    // let extensionId;
 
     if (!+idReplyingTo) {
-      console.log(parentIndex, idReplyingTo);
-      extensionId = +idReplyingTo.split("-")[1];
+      // console.log(parentIndex, idReplyingTo);
+      // extensionId = +idReplyingTo.split("-")[1];
 
-      const index = commentReplyTo.replies.findIndex(
-        (el) => +el.id.split("-")[1] === extensionId
-      );
+      // const index = model.indexFinder(commentReplyTo.replies, idReplyingTo);
+      // .findIndex(
+      //   (el) => +el.id.split("-")[1] === extensionId
+      // );
 
-      const replyingTo = commentReplyTo.replies[index].user.username;
+      const replyingTo = model.dataProvide(idReplyingTo).user.username;
 
       // console.log(replyingTo);
       comment.replyingTo = replyingTo;
@@ -71,7 +74,9 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
     // the id of the  new replied comment
     comment.id = parentCommentId + "-" + newExtensionId;
 
-    model.state.comments[parentIndex].replies.push(comment);
+    // model.state.comments[parentIndex].replies.push(comment);
+
+    model.dataPush(comment, comment.id);
     // console.log(model.state.comments[parentCommentId - 1]);
 
     // console.log(idReplyingTo);
@@ -85,7 +90,9 @@ const sendHandler = function (content, idReplyingTo, inReplied) {
   } else {
     comment.id = new Date().getTime();
     // console.log(comment.id)
-    model.state.comments.push(comment);
+    // model.state.comments.push(comment);
+
+    model.dataPush(comment, comment.id);
     commentRenderer({ comment: comment, current: true });
   }
 

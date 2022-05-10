@@ -557,16 +557,18 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
     if (idReplyingTo) {
         const parentCommentId = parseInt(idReplyingTo);
         // finding the index of the parent comment inside the state.comments array
-        const parentIndex = _modelJs.state.comments.findIndex((el)=>el.id === parentCommentId
-        );
-        const commentReplyTo = _modelJs.state.comments[parentIndex];
-        let extensionId;
+        const parentIndex = _modelJs.indexFinder(_modelJs.state.comments, parentCommentId);
+        const commentReplyTo = _modelJs.dataProvide(parentCommentId);
+        // model.state.comments[parentIndex];
+        // let extensionId;
         if (!+idReplyingTo) {
-            console.log(parentIndex, idReplyingTo);
-            extensionId = +idReplyingTo.split("-")[1];
-            const index = commentReplyTo.replies.findIndex((el)=>+el.id.split("-")[1] === extensionId
-            );
-            const replyingTo = commentReplyTo.replies[index].user.username;
+            // console.log(parentIndex, idReplyingTo);
+            // extensionId = +idReplyingTo.split("-")[1];
+            // const index = model.indexFinder(commentReplyTo.replies, idReplyingTo);
+            // .findIndex(
+            //   (el) => +el.id.split("-")[1] === extensionId
+            // );
+            const replyingTo = _modelJs.dataProvide(idReplyingTo).user.username;
             // console.log(replyingTo);
             comment.replyingTo = replyingTo;
         }
@@ -580,7 +582,8 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
         const newExtensionId = new Date().getTime();
         // the id of the  new replied comment
         comment.id = parentCommentId + "-" + newExtensionId;
-        _modelJs.state.comments[parentIndex].replies.push(comment);
+        // model.state.comments[parentIndex].replies.push(comment);
+        _modelJs.dataPush(comment, comment.id);
         // console.log(model.state.comments[parentCommentId - 1]);
         // console.log(idReplyingTo);
         const argumentsObj = {
@@ -593,7 +596,8 @@ const commentRenderer = function({ comment , RCid , replied =false , current  })
     } else {
         comment.id = new Date().getTime();
         // console.log(comment.id)
-        _modelJs.state.comments.push(comment);
+        // model.state.comments.push(comment);
+        _modelJs.dataPush(comment, comment.id);
         commentRenderer({
             comment: comment,
             current: true
@@ -654,9 +658,13 @@ parcelHelpers.export(exports, "state", ()=>state
 );
 parcelHelpers.export(exports, "scoreUpdate", ()=>scoreUpdate
 );
+parcelHelpers.export(exports, "indexFinder", ()=>indexFinder
+);
 parcelHelpers.export(exports, "dataProvide", ()=>dataProvide
 );
 parcelHelpers.export(exports, "contentUpdate", ()=>contentUpdate
+);
+parcelHelpers.export(exports, "dataPush", ()=>dataPush
 );
 const state = {
     currentUser: {
@@ -726,6 +734,10 @@ const state = {
         }, 
     ]
 };
+// ====================================== LOCAL-STORAGE persist ======================================
+const persistState = function() {
+    localStorage.setItem("state", JSON.stringify(state));
+};
 const scoreUpdate = function(id, add = true) {
     const parentIndex = state.comments.findIndex((el)=>el.id === parseInt(id)
     );
@@ -747,11 +759,7 @@ const scoreUpdate = function(id, add = true) {
     persistState();
     return state.comments[parentIndex].replies[repliesIndex].score;
 };
-// ====================================== LOCAL-STORAGE persist ======================================
-const persistState = function() {
-    localStorage.setItem("state", JSON.stringify(state));
-};
-/*======================================================== Index finder =========================================*/ const indexFinder = function(array, id) {
+const indexFinder = function(array, id) {
     const index = array.findIndex((el)=>el.id === id
     );
     return index;
@@ -774,12 +782,29 @@ const contentUpdate = function(id, content) {
     if (!+id) {
         const indR = indexFinder(state.comments[indP].replies, id); // INDEX of repiled
         state.comments[indP].replies[indR].content = content; // UPDATING the content
+        persistState();
         //                                                        ASURING CONTROLLED DATA MOVMENT
         return state.comments[indP].replies[indR].content; // UPDATING the content
     }
     state.comments[indP].content = content;
+    persistState();
     //                                                        ASURING CONTROLLED DATA MOVMENT
     return state.comments[indP].content;
+};
+const dataPush = function(data, id) {
+    // normal COMMENT
+    if (+id) {
+        state.comments.push(data);
+        persistState();
+        return state.comments[-1];
+    }
+    // REPLIED data
+    const idP = parseInt(id);
+    const indP = indexFinder(state.comments, idP);
+    console.log(indP);
+    state.comments[indP].replies.push(data);
+    persistState();
+    return state.comments[indP].replies[-1];
 };
 /*========================================================  INITIALIZER function ==================================*/ // localStorage.clear("state");
 const init = function() {
